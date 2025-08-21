@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-08-21T15:44:00Z",
+  "flags": {
+    "ENABLE_DAPP_SECURITY_WARNINGS": {
+      "enabled": false,
+      "description": "Enable security warnings for dApp interactions"
+    },
+    "ENABLE_PHISHING_DETECTION": {
+      "enabled": false,
+      "description": "Enable phishing detection for dApp URLs"
+    },
+    "ENABLE_ORIGIN_VALIDATION": {
+      "enabled": false,
+      "description": "Enable origin validation for dApp connections"
+    },
+    "ENABLE_SWAP": {
+      "enabled": false,
+      "description": "Enable token swap functionality"
+    },
+    "ENABLE_BUY": {
+      "enabled": false,
+      "description": "Enable token purchase functionality"
+    },
+    "ENABLE_ZKAUTH_WALLET": {
+      "enabled": false,
+      "description": "Enable ZKAuth wallet creation and social login options"
+    },
+    "FORCE_INTRO": {
+      "enabled": true,
+      "description": "Force intro flow even if already shown"
+    }
+  }
+}
