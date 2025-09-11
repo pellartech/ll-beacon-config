@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updatedAt": "2025-09-09T00:00:00Z",
+  "updatedAt": "2025-09-11T00:00:00Z",
   "networks": [
     {
       "id": 1,
@@ -31,7 +31,8 @@
         }
       },
       "blockscoutApi": "https://phoenix.lightlink.io/api/v2",
-      "isTestnet": false
+      "isTestnet": false,
+      "supportsEIP1559": false
     },
     {
       "id": 8453,
@@ -79,7 +80,8 @@
         }
       },
       "blockscoutApi": "https://pegasus.lightlink.io/api/v2",
-      "isTestnet": true
+      "isTestnet": true,
+      "supportsEIP1559": false
     },
     {
       "id": 84532,
