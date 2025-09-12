@@ -27,8 +27,12 @@
       "description": "Enable ZKAuth wallet creation and social login options"
     },
     "FORCE_INTRO": {
-      "enabled": true,
+      "enabled": false,
       "description": "Force intro flow even if already shown"
+    },
+    "ENABLE_PRIVY_WALLET": {
+      "enabled": true,
+      "description": "Enable Privy wallet integration"
     }
   }
 }
