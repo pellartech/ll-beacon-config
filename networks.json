@@ -16,7 +16,7 @@
     },
     {
       "id": 1890,
-      "name": "LightLink Phoenix",
+      "name": "LightLink",
       "network": "lightlink-phoenix",
       "nativeCurrency": { "decimals": 18, "name": "Ether", "symbol": "ETH" },
       "rpcUrls": {
@@ -65,7 +65,7 @@
     },
     {
       "id": 1891,
-      "name": "LightLink Pegasus",
+      "name": "LightLink Testnet",
       "network": "lightlink-pegasus",
       "nativeCurrency": { "decimals": 18, "name": "Ether", "symbol": "ETH" },
       "rpcUrls": {
