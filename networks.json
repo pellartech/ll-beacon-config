@@ -4,7 +4,7 @@
   "networks": [
     {
       "id": 1,
-      "name": "Ethereum Mainnet",
+      "name": "Ethereum",
       "network": "ethereum",
       "nativeCurrency": { "decimals": 18, "name": "Ether", "symbol": "ETH" },
       "rpcUrls": { "default": { "http": ["https://ethereum.publicnode.com"] } },
@@ -12,7 +12,8 @@
         "default": { "name": "Etherscan", "url": "https://etherscan.io/" }
       },
       "blockscoutApi": "https://eth.blockscout.com/api/v2",
-      "isTestnet": false
+      "isTestnet": false,
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/network/ERC-20.png"
     },
     {
       "id": 1890,
@@ -32,7 +33,8 @@
       },
       "blockscoutApi": "https://phoenix.lightlink.io/api/v2",
       "isTestnet": false,
-      "supportsEIP1559": false
+      "supportsEIP1559": false,
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/network/LL.png"
     },
     {
       "id": 8453,
@@ -44,7 +46,8 @@
         "default": { "name": "Basescan", "url": "https://basescan.org/" }
       },
       "blockscoutApi": "https://base.blockscout.com/api/v2",
-      "isTestnet": false
+      "isTestnet": false,
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/network/BASE.png"
     },
     {
       "id": 11155111,
@@ -61,7 +64,8 @@
         }
       },
       "blockscoutApi": "https://eth-sepolia.blockscout.com/api/v2",
-      "isTestnet": true
+      "isTestnet": true,
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/network/ERC-20.png"
     },
     {
       "id": 1891,
@@ -81,7 +85,8 @@
       },
       "blockscoutApi": "https://pegasus.lightlink.io/api/v2",
       "isTestnet": true,
-      "supportsEIP1559": false
+      "supportsEIP1559": false,
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/network/LL.png"
     },
     {
       "id": 84532,
@@ -96,7 +101,8 @@
         }
       },
       "blockscoutApi": "https://base-sepolia.blockscout.com/api/v2",
-      "isTestnet": true
+      "isTestnet": true,
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/network/BASE.png"
     }
   ]
 }
