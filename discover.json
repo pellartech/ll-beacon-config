@@ -1,0 +1,49 @@
+{
+  "version": "1.0",
+  "updatedAt": "2025-09-24T18:00:00Z",
+  "apps": [
+    {
+      "id": "lightlink-bridge",
+      "name": "LightLink Bridge",
+      "description": "Bridge tokens to LightLink network",
+      "logoURI": "https://lightlink.io/favicon.ico",
+      "url": "https://bridge.lightlink.io",
+      "categories": ["defi", "bridge"],
+      "featured": true
+    },
+    {
+      "id": "uniswap",
+      "name": "Uniswap",
+      "description": "Decentralized trading protocol",
+      "logoURI": "https://app.uniswap.org/favicon.ico",
+      "url": "https://app.uniswap.org",
+      "categories": ["defi", "dex"],
+      "featured": false
+    },
+    {
+      "id": "opensea",
+      "name": "OpenSea",
+      "description": "The world's first and largest digital marketplace",
+      "logoURI": "https://opensea.io/favicon.ico",
+      "url": "https://opensea.io",
+      "categories": ["nft", "marketplace"],
+      "featured": false
+    },
+    {
+      "id": "oku-trade",
+      "name": "Oku",
+      "description": "Advanced trading interface for Uniswap",
+      "logoURI": "https://oku.trade/favicon.ico",
+      "url": "https://oku.trade/?inputChain=ethereum&inToken=0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48&outToken=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "categories": ["defi", "trading"],
+      "featured": false
+    }
+  ],
+  "tokens": [],
+  "learningMaterials": [],
+  "enabledSections": {
+    "apps": true,
+    "tokens": false,
+    "learningMaterials": false
+  }
+}
