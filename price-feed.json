@@ -1,1202 +1,1206 @@
-[
-  {
+{
+  "version": "1.0",
+  "lastUpdated": "2025-09-30T00:00:00Z",
+  "priceFeeds": [
+    {
       "symbol": "LL",
       "pythId": "2805c8894235111024c54253267f2b325be23763d534d2051742e39234b5835a",
       "description": "LightLink",
       "isActive": true
     },
-  {
-    "symbol": "BTC",
-    "pythId": "e62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
-    "description": "Bitcoin",
-    "isActive": true
-  },
-  {
-    "symbol": "ETH",
-    "pythId": "ff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace",
-    "description": "Ethereum",
-    "isActive": true
-  },
-  {
-    "symbol": "XRP",
-    "pythId": "ec5d399846a9209f3fe5881d70aae9268c94339ff9817e8d18ff19fa05eea1c8",
-    "description": "XRP",
-    "isActive": true
-  },
-  {
-    "symbol": "USDT",
-    "pythId": "2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
-    "description": "Tether",
-    "isActive": true
-  },
-  {
-    "symbol": "BNB",
-    "pythId": "2f95862b045670cd22bee3114c39763a4a08beeb663b145d283c31d7d1101c4f",
-    "description": "BNB",
-    "isActive": true
-  },
-  {
-    "symbol": "SOL",
-    "pythId": "ef0d8b6fda2ceba41da15d4095d1da392a0d2f8ed0c6c7bc0f4cfac8c280b56d",
-    "description": "Solana",
-    "isActive": true
-  },
-  {
-    "symbol": "USDC",
-    "pythId": "eaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
-    "description": "USDC",
-    "isActive": true
-  },
-  {
-    "symbol": "DOGE",
-    "pythId": "dcef50dd0a4cd2dcc17e45df1676dcb336a11a61c69df7a0299b0150c672d25c",
-    "description": "Dogecoin",
-    "isActive": true
-  },
-  {
-    "symbol": "STETH",
-    "pythId": "846ae1bdb6300b817cee5fdee2a6da192775030db5615b94a465f53bd40850b5",
-    "description": "Lido Staked Ether",
-    "isActive": true
-  },
-  {
-    "symbol": "TRX",
-    "pythId": "67aed5a24fdad045475e7195c98a98aea119c763f272d4523f5bac93a4f33c2b",
-    "description": "TRON",
-    "isActive": true
-  },
-  {
-    "symbol": "ADA",
-    "pythId": "2a01deaec9e51a579277b34b122399984d0bbf57e2458a7e42fecd2829867a0d",
-    "description": "Cardano",
-    "isActive": true
-  },
-  {
-    "symbol": "WSTETH",
-    "pythId": "6df640f3b8963d8f8358f791f352b8364513f6ab1cca5ed3f1f7b5448980e784",
-    "description": "Wrapped stETH",
-    "isActive": true
-  },
-  {
-    "symbol": "LINK",
-    "pythId": "8ac0c70fff57e9aefdf5edf44b51d62c2d433653cbb2cf5cc06bb115af04d221",
-    "description": "Chainlink",
-    "isActive": true
-  },
-  {
-    "symbol": "WBETH",
-    "pythId": "a267be8dc252ce1e7981598af48ca0d0fe558caec7b11a9cf870fab5b7ab7c16",
-    "description": "Wrapped Beacon ETH",
-    "isActive": true
-  },
-  {
-    "symbol": "WBTC",
-    "pythId": "c9d8b075a5c69303365ae23633d4e085199bf5c520a3b90fed1322a0342ffc33",
-    "description": "Wrapped Bitcoin",
-    "isActive": true
-  },
-  {
-    "symbol": "HYPE",
-    "pythId": "4279e31cc369bbcc2faf022b382b080e32a8e689ff20fbc530d2a603eb6cd98b",
-    "description": "Hyperliquid",
-    "isActive": true
-  },
-  {
-    "symbol": "USDE",
-    "pythId": "6ec879b1e9963de5ee97e9c8710b742d6228252a5e2ca12d4ae81d7fe5ee8c5d",
-    "description": "Ethena USDe",
-    "isActive": true
-  },
-  {
-    "symbol": "SUI",
-    "pythId": "23d7315113f5b1d3ba7a83604c44b94d79f4fd69af77f804fc7f920a6dc65744",
-    "description": "Sui",
-    "isActive": true
-  },
-  {
-    "symbol": "AVAX",
-    "pythId": "93da3352f9f1d105fdfe4971cfa80e9dd777bfc5d0f683ebb6e1294b92137bb7",
-    "description": "Avalanche",
-    "isActive": true
-  },
-  {
-    "symbol": "FIGR_HELOC",
-    "pythId": "0f6539d2f188eef5cb9dfba796f4c40407e55df14bb668a81a9ba3678d5a625c",
-    "description": "Figure Heloc",
-    "isActive": true
-  },
-  {
-    "symbol": "XLM",
-    "pythId": "b7a8eba68a997cd0210c2e1e4ee811ad2d174b3611c22d9ebf16f4cb7e9ba850",
-    "description": "Stellar",
-    "isActive": true
-  },
-  {
-    "symbol": "WEETH",
-    "pythId": "9ee4e7c60b940440a261eb54b6d8149c23b580ed7da3139f7f08f4ea29dad395",
-    "description": "Wrapped eETH",
-    "isActive": true
-  },
-  {
-    "symbol": "BCH",
-    "pythId": "3dd2b63686a450ec7290df3a1e0b583c0481f651351edfa7636f39aed55cf8a3",
-    "description": "Bitcoin Cash",
-    "isActive": true
-  },
-  {
-    "symbol": "WETH",
-    "pythId": "9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6",
-    "description": "WETH",
-    "isActive": true
-  },
-  {
-    "symbol": "HBAR",
-    "pythId": "3728e591097635310e6341af53db8b7ee42da9b3a8d918f9463ce9cca886dfbd",
-    "description": "Hedera",
-    "isActive": true
-  },
-  {
-    "symbol": "LEO",
-    "pythId": "19e4e2b451406cf99311bb5127b12a948db17f30b69c323c8657d71119a58619",
-    "description": "LEO Token",
-    "isActive": true
-  },
-  {
-    "symbol": "LTC",
-    "pythId": "6e3f3fa8253588df9326580180233eb791e03b443a3ba7a1d892e73874e19a54",
-    "description": "Litecoin",
-    "isActive": true
-  },
-  {
-    "symbol": "TON",
-    "pythId": "8963217838ab4cf5cadc172203c1f0b763fbaa45f346d8ee50ba994bbcac3026",
-    "description": "Toncoin",
-    "isActive": true
-  },
-  {
-    "symbol": "CRO",
-    "pythId": "23199c2bcb1303f667e733b9934db9eca5991e765b45f5ed18bc4b231415f2fe",
-    "description": "Cronos",
-    "isActive": true
-  },
-  {
-    "symbol": "USDS",
-    "pythId": "77f0971af11cc8bac224917275c1bf55f2319ed5c654a1ca955c82fa2d297ea1",
-    "description": "USDS",
-    "isActive": true
-  },
-  {
-    "symbol": "SHIB",
-    "pythId": "f0d57deca57b3da2fe63a493f4c25925fdfd8edf834b20f93e1f84dbd1504d4a",
-    "description": "Shiba Inu",
-    "isActive": true
-  },
-  {
-    "symbol": "CBBTC",
-    "pythId": "2817d7bfe5c64b8ea956e9a26f573ef64e72e4d7891f2d6af9bcc93f7aff9a97",
-    "description": "Coinbase Wrapped BTC",
-    "isActive": true
-  },
-  {
-    "symbol": "BSC-USD",
-    "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
-    "description": "Binance Bridged USDT (BNB Smart Chain)",
-    "isActive": true
-  },
-  {
-    "symbol": "DOT",
-    "pythId": "ca3eed9b267293f6595901c734c7525ce8ef49adafe8284606ceb307afa2ca5b",
-    "description": "Polkadot",
-    "isActive": true
-  },
-  {
-    "symbol": "WBT",
-    "pythId": "eff7446475e218517566ea99e72a4abec2e1bd8498b43b7d8331e29dcb059389",
-    "description": "WhiteBIT Coin",
-    "isActive": true
-  },
-  {
-    "symbol": "WLFI",
-    "pythId": "d41369178d64f41d51ca95465c144a2c74d2fff30be69164835911943fa64c3e",
-    "description": "World Liberty Financial",
-    "isActive": true
-  },
-  {
-    "symbol": "XMR",
-    "pythId": "46b8cc9347f04391764a0361e0b17c3ba394b001e7c304f7650f6376e37c321d",
-    "description": "Monero",
-    "isActive": true
-  },
-  {
-    "symbol": "SUSDE",
-    "pythId": "ca3ba9a619a4b3755c10ac7d5e760275aa95e9823d38a84fedd416856cdba37c",
-    "description": "Ethena Staked USDe",
-    "isActive": true
-  },
-  {
-    "symbol": "UNI",
-    "pythId": "78d185a741d07edb3412b09008b7c5cfb9bbbd7d568bf00ba737b456ba171501",
-    "description": "Uniswap",
-    "isActive": true
-  },
-  {
-    "symbol": "MNT",
-    "pythId": "4e3037c822d852d79af3ac80e35eb420ee3b870dca49f9344a38ef4773fb0585",
-    "description": "Mantle",
-    "isActive": true
-  },
-  {
-    "symbol": "ENA",
-    "pythId": "b7910ba7322db020416fcac28b48c01212fd9cc8fbcbaf7d30477ed8605f6bd4",
-    "description": "Ethena",
-    "isActive": true
-  },
-  {
-    "symbol": "PEPE",
-    "pythId": "d69731a2e74ac1ce884fc3890f7ee324b6deb66147055249568869ed700882e4",
-    "description": "Pepe",
-    "isActive": true
-  },
-  {
-    "symbol": "BGB",
-    "pythId": "708bfcf418ead52a408407b039f2c33ce24ddc80d6dcb6d1cffef91c156c80fa",
-    "description": "Bitget Token",
-    "isActive": true
-  },
-  {
-    "symbol": "DAI",
-    "pythId": "b0948a5e5313200c632b51bb5ca32f6de0d36e9950a942d19751e833f70dabfd",
-    "description": "Dai",
-    "isActive": true
-  },
-  {
-    "symbol": "AAVE",
-    "pythId": "2b9ab1e972a281585084148ba1389800799bd4be63b957507db1349314e47445",
-    "description": "Aave",
-    "isActive": true
-  },
-  {
-    "symbol": "OKB",
-    "pythId": "d6f83dfeaff95d596ddec26af2ee32f391c206a183b161b7980821860eeef2f5",
-    "description": "OKB",
-    "isActive": true
-  },
-  {
-    "symbol": "M",
-    "pythId": "3871d0ef1cf9e26005e4bbf7822f67a8883071a9d8a4e7a0125d2484cca7671f",
-    "description": "MemeCore",
-    "isActive": true
-  },
-  {
-    "symbol": "JITOSOL",
-    "pythId": "67be9f519b95cf24338801051f9a808eff0a578ccb388db73b7f6fe1de019ffb",
-    "description": "Jito Staked SOL",
-    "isActive": true
-  },
-  {
-    "symbol": "NEAR",
-    "pythId": "c415de8d2eba7db216527dff4b60e8f3a5311c740dadb233e13e12547e226750",
-    "description": "NEAR Protocol",
-    "isActive": true
-  },
-  {
-    "symbol": "TAO",
-    "pythId": "410f41de235f2db824e562ea7ab2d3d3d4ff048316c61d629c0b93f58584e1af",
-    "description": "Bittensor",
-    "isActive": true
-  },
-  {
-    "symbol": "ONDO",
-    "pythId": "d40472610abe56d36d065a0cf889fc8f1dd9f3b7f2a478231a5fc6df07ea5ce3",
-    "description": "Ondo",
-    "isActive": true
-  },
-  {
-    "symbol": "ETC",
-    "pythId": "7f5cc8d963fc5b3d2ae41fe5685ada89fd4f14b435f8050f28c7fd409f40c2d8",
-    "description": "Ethereum Classic",
-    "isActive": true
-  },
-  {
-    "symbol": "APT",
-    "pythId": "03ae4db29ed4ae33d323568895aa00337e658e348b37509f5372ae51f0af00d5",
-    "description": "Aptos",
-    "isActive": true
-  },
-  {
-    "symbol": "IP",
-    "pythId": "b620ba83044577029da7e4ded7a2abccf8e6afc2a0d4d26d89ccdd39ec109025",
-    "description": "Story",
-    "isActive": true
-  },
-  {
-    "symbol": "WLD",
-    "pythId": "d6835ad1f773de4a378115eb6824bd0c0e42d84d1c84d9750e853fb6b6c7794a",
-    "description": "Worldcoin",
-    "isActive": true
-  },
-  {
-    "symbol": "BNSOL",
-    "pythId": "55f8289be7450f1ae564dd9798e49e7d797d89adbc54fe4f8c906b1fcb94b0c3",
-    "description": "Binance Staked SOL",
-    "isActive": true
-  },
-  {
-    "symbol": "PUMP",
-    "pythId": "7a01fca212788bba7c5bf8c9efd576a8a722f070d2c17596ff7bb609b8d5c3b9",
-    "description": "Pump.fun",
-    "isActive": true
-  },
-  {
-    "symbol": "PI",
-    "pythId": "8c102183926ffc9a1a1347a5a583661af37b415e93ea3f3591e94c303ed4f514",
-    "description": "Pi Network",
-    "isActive": true
-  },
-  {
-    "symbol": "USDT0",
-    "pythId": "cfc1303ea9f083b1b4f99e1369fb9d2611f3230d5ea33a6abf2f86071c089fdc",
-    "description": "USDT0",
-    "isActive": true
-  },
-  {
-    "symbol": "WETH",
-    "pythId": "9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6",
-    "description": "Binance-Peg WETH",
-    "isActive": true
-  },
-  {
-    "symbol": "POL",
-    "pythId": "ffd11c5a1cfd42f80afb2df4d9f264c15f956d68153335374ec10722edd70472",
-    "description": "POL (ex-MATIC)",
-    "isActive": true
-  },
-  {
-    "symbol": "USD1",
-    "pythId": "0a2425d43486780990d8b63543029e20556be51fd756cca584212f4d539611d4",
-    "description": "USD1",
-    "isActive": true
-  },
-  {
-    "symbol": "ARB",
-    "pythId": "3fa4252848f9f0a1480be62745a4629d9eb1322aebab8a791e344b3b9c1adcf5",
-    "description": "Arbitrum",
-    "isActive": true
-  },
-  {
-    "symbol": "ICP",
-    "pythId": "c9907d786c5821547777780a1e4f89484f3417cb14dd244f2b0a34ea7a554d67",
-    "description": "Internet Computer",
-    "isActive": true
-  },
-  {
-    "symbol": "KAS",
-    "pythId": "dfd3cb51a9d39fde35a3ff6177b426def03ed48d45008248f22827d8bf50cab4",
-    "description": "Kaspa",
-    "isActive": true
-  },
-  {
-    "symbol": "JLP",
-    "pythId": "c811abc82b4bad1f9bd711a2773ccaa935b03ecef974236942cec5e0eb845a3a",
-    "description": "Jupiter Perpetuals Liquidity Provider Token",
-    "isActive": true
-  },
-  {
-    "symbol": "MYX",
-    "pythId": "19f2cec610f000c63b704ee3380bf7cb0ef94a110f72fd970def9fac4862bde8",
-    "description": "MYX Finance",
-    "isActive": true
-  },
-  {
-    "symbol": "PENGU",
-    "pythId": "bed3097008b9b5e3c93bec20be79cb43986b85a996475589351a21e67bae9b61",
-    "description": "Pudgy Penguins",
-    "isActive": true
-  },
-  {
-    "symbol": "BUIDL",
-    "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
-    "description": "BlackRock USD Institutional Digital Liquidity Fund",
-    "isActive": true
-  },
-  {
-    "symbol": "KHYPE",
-    "pythId": "2837a61ae8165c018b0e406ac32b1527270e57b81f0069260afbef71b9cf8ffe",
-    "description": "Kinetiq Staked HYPE",
-    "isActive": true
-  },
-  {
-    "symbol": "ATOM",
-    "pythId": "b00b60f88b03a6a625a8d1c048c3f66653edf217439983d037e7222c4e612819",
-    "description": "Cosmos Hub",
-    "isActive": true
-  },
-  {
-    "symbol": "SUSDS",
-    "pythId": "77f0971af11cc8bac224917275c1bf55f2319ed5c654a1ca955c82fa2d297ea1",
-    "description": "sUSDS",
-    "isActive": true
-  },
-  {
-    "symbol": "VET",
-    "pythId": "1722176f738aa1aafea170f8b27724042c5ac6d8cb9cf8ae02d692b0927e0681",
-    "description": "VeChain",
-    "isActive": true
-  },
-  {
-    "symbol": "ALGO",
-    "pythId": "fa17ceaf30d19ba51112fdcc750cc83454776f47fb0112e4af07f15f4bb1ebc0",
-    "description": "Algorand",
-    "isActive": true
-  },
-  {
-    "symbol": "KCS",
-    "pythId": "c8acad81438490d4ebcac23b3e93f31cdbcb893fcba746ea1c66b89684faae2f",
-    "description": "KuCoin",
-    "isActive": true
-  },
-  {
-    "symbol": "RETH",
-    "pythId": "a0255134973f4fdf2f8f7808354274a3b1ebc6ee438be898d045e8b56ba1fe13",
-    "description": "Rocket Pool ETH",
-    "isActive": true
-  },
-  {
-    "symbol": "GT",
-    "pythId": "051ee6cdd581106d0291dfd9b0ee13e6b4dde8fb251afd262c2ba5444257daa8",
-    "description": "Gate",
-    "isActive": true
-  },
-  {
-    "symbol": "RENDER",
-    "pythId": "3d4a2bd9535be6ce8059d75eadeba507b043257321aa544717c56fa19b49e35d",
-    "description": "Render",
-    "isActive": true
-  },
-  {
-    "symbol": "SEI",
-    "pythId": "53614f1cb0c031d4af66c04cb9c756234adad0e1cee85303795091499a4084eb",
-    "description": "Sei",
-    "isActive": true
-  },
-  {
-    "symbol": "FTN",
-    "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
-    "description": "Fasttoken",
-    "isActive": true
-  },
-  {
-    "symbol": "RSETH",
-    "pythId": "0caec284d34d836ca325cf7b3256c078c597bc052fbd3c0283d52b581d68d71f",
-    "description": "Kelp DAO Restaked ETH",
-    "isActive": true
-  },
-  {
-    "symbol": "BONK",
-    "pythId": "72b021217ca3fe68922a19aaf990109cb9d84e9ad004b4d2025ad6f529314419",
-    "description": "Bonk",
-    "isActive": true
-  },
-  {
-    "symbol": "USDF",
-    "pythId": "2cffc28ec4268805dbcb315bb122616059a1c200dda3d56f06ac150db8dfc370",
-    "description": "Falcon USD",
-    "isActive": true
-  },
-  {
-    "symbol": "USDTB",
-    "pythId": "e4731214382d8ed70a766930a7722c68064fc7ed4e6d70dbce3c84d4be81bc92",
-    "description": "USDtb",
-    "isActive": true
-  },
-  {
-    "symbol": "FIL",
-    "pythId": "150ac9b959aee0051e4091f0ef5216d941f590e1c5e7f91cf7635b5c11628c0e",
-    "description": "Filecoin",
-    "isActive": true
-  },
-  {
-    "symbol": "HASH",
-    "pythId": "d1eea292e03d27a5368818ebf4c2704bf7b05ea18497b53be57e5d7abaeaade9",
-    "description": "Provenance Blockchain",
-    "isActive": true
-  },
-  {
-    "symbol": "TRUMP",
-    "pythId": "879551021853eec7a7dc827578e8e69da7e4fa8148339aa0d3d5296405be4b1a",
-    "description": "Official Trump",
-    "isActive": true
-  },
-  {
-    "symbol": "SKY",
-    "pythId": "a483243eed64ca27a1f6e26385b7d1e0d07e9fe264bb6903efb3efc4689d3fe7",
-    "description": "Sky",
-    "isActive": true
-  },
-  {
-    "symbol": "FLR",
-    "pythId": "035aa8d0a2d74e19438f2c1440edff9f3b95f915ca65f681a25ed0bad3dc228d",
-    "description": "Flare",
-    "isActive": true
-  },
-  {
-    "symbol": "BFUSD",
-    "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
-    "description": "BFUSD",
-    "isActive": true
-  },
-  {
-    "symbol": "OSETH",
-    "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
-    "description": "StakeWise Staked ETH",
-    "isActive": true
-  },
-  {
-    "symbol": "FET",
-    "pythId": "7da003ada32eabbac855af3d22fcf0fe692cc589f0cfd5ced63cf0bdcc742efe",
-    "description": "Artificial Superintelligence Alliance",
-    "isActive": true
-  },
-  {
-    "symbol": "LSETH",
-    "pythId": "ff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace",
-    "description": "Liquid Staked ETH",
-    "isActive": true
-  },
-  {
-    "symbol": "JUP",
-    "pythId": "0a0408d619e9380abad35060f9192039ed5042fa6f82301d0e48bb52be830996",
-    "description": "Jupiter",
-    "isActive": true
-  },
-  {
-    "symbol": "LBTC",
-    "pythId": "8f257aab6e7698bb92b15511915e593d6f8eae914452f781874754b03d0c612b",
-    "description": "Lombard Staked BTC",
-    "isActive": true
-  },
-  {
-    "symbol": "QNT",
-    "pythId": "19ab139032007c8bd7d1fd3842ef392a5434569a72b555504a5aee47df2a0a35",
-    "description": "Quant",
-    "isActive": true
-  },
-  {
-    "symbol": "EZETH",
-    "pythId": "06c217a791f5c4f988b36629af4cb88fad827b2485400a358f3b02886b54de92",
-    "description": "Renzo Restaked ETH",
-    "isActive": true
-  },
-  {
-    "symbol": "USDT",
-    "pythId": "2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
-    "description": "Polygon Bridged USDT (Polygon)",
-    "isActive": true
-  },
-  {
-    "symbol": "XAUT",
-    "pythId": "44465e17d2e9d390e70c999d5a11fda4f092847fcd2e3e5aa089d96c98a30e67",
-    "description": "Tether Gold",
-    "isActive": true
-  },
-  {
-    "symbol": "OP",
-    "pythId": "385f64d993f7b77d8182ed5003d97c60aa3361f3cecfe711544d2d59165e9bdf",
-    "description": "Optimism",
-    "isActive": true
-  },
-  {
-    "symbol": "XDC",
-    "pythId": "f689a76211f3505826357e49ddd683221d9632735e2b27fd07fb1805c47cdace",
-    "description": "XDC Network",
-    "isActive": true
-  },
-  {
-    "symbol": "INJ",
-    "pythId": "7a5bc1d2b56ad029048cd63964b3ad2776eadf812edc1a43a31406cb54bff592",
-    "description": "Injective",
-    "isActive": true
-  },
-  {
-    "symbol": "TIA",
-    "pythId": "09f7c1d7dfbb7df2b8fe3d3d87ee94a2259d212da4f30c1f0540d066dfa44723",
-    "description": "Celestia",
-    "isActive": true
-  },
-  {
-    "symbol": "IMX",
-    "pythId": "941320a8989414874de5aa2fc340a75d5ed91fdff1613dd55f83844d52ea63a2",
-    "description": "Immutable",
-    "isActive": true
-  },
-  {
-    "symbol": "JUPSOL",
-    "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
-    "description": "Jupiter Staked SOL",
-    "isActive": true
-  },
-  {
-    "symbol": "NEXO",
-    "pythId": "e5f406d97d7fa159c21647912b72aa8c669e24d7bd59bcd518587bbde027c531",
-    "description": "NEXO",
-    "isActive": true
-  },
-  {
-    "symbol": "PYUSD",
-    "pythId": "c1da1b73d7f01e7ddd54b3766cf7fcd644395ad14f70aa706ec5384c59e76692",
-    "description": "PayPal USD",
-    "isActive": true
-  },
-  {
-    "symbol": "WBNB",
-    "pythId": "2f95862b045670cd22bee3114c39763a4a08beeb663b145d283c31d7d1101c4f",
-    "description": "Wrapped BNB",
-    "isActive": true
-  },
-  {
-    "symbol": "SPX",
-    "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
-    "description": "SPX6900",
-    "isActive": true
-  },
-  {
-    "symbol": "SOLVBTC",
-    "pythId": "f253cf87dc7d5ed5aa14cba5a6e79aee8bcfaef885a0e1b807035a0bbecc36fa",
-    "description": "Solv Protocol BTC",
-    "isActive": true
-  },
-  {
-    "symbol": "STX",
-    "pythId": "ec7a775f46379b5e943c3526b1c8d54cd49749176b0b98e02dde68d1bd335c17",
-    "description": "Stacks",
-    "isActive": true
-  },
-  {
-    "symbol": "METH",
-    "pythId": "fbc9c3a716650b6e24ab22ab85b1c0ef4141b18f4590cc0b986e2f9064cf73d6",
-    "description": "Mantle Staked Ether",
-    "isActive": true
-  },
-  {
-    "symbol": "S",
-    "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
-    "description": "Sonic",
-    "isActive": true
-  },
-  {
-    "symbol": "FDUSD",
-    "pythId": "ccdc1a08923e2e4f4b1e6ea89de6acbc5fe1948e9706f5604b8cb50bc1ed3979",
-    "description": "First Digital USD",
-    "isActive": true
-  },
-  {
-    "symbol": "SYRUPUSDC",
-    "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
-    "description": "syrupUSDC",
-    "isActive": true
-  },
-  {
-    "symbol": "AERO",
-    "pythId": "9db37f4d5654aad3e37e2e14ffd8d53265fb3026d1d8f91146539eebaa2ef45f",
-    "description": "Aerodrome Finance",
-    "isActive": true
-  },
-  {
-    "symbol": "MSOL",
-    "pythId": "c2289a6a43d2ce91c6f55caec370f4acc38a2ed477f58813334c6d03749ff2a4",
-    "description": "Marinade Staked SOL",
-    "isActive": true
-  },
-  {
-    "symbol": "LDO",
-    "pythId": "c63e2a7f37a04e5e614c07238bedb25dcc38927fba8fe890597a593c0b2fa4ad",
-    "description": "Lido DAO",
-    "isActive": true
-  },
-  {
-    "symbol": "PAXG",
-    "pythId": "273717b49430906f4b0c230e99aa1007f83758e3199edbc887c0d06c3e332494",
-    "description": "PAX Gold",
-    "isActive": true
-  },
-  {
-    "symbol": "SAROS",
-    "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
-    "description": "Saros",
-    "isActive": true
-  },
-  {
-    "symbol": "USDC",
-    "pythId": "eaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
-    "description": "Binance Bridged USDC (BNB Smart Chain)",
-    "isActive": true
-  },
-  {
-    "symbol": "CRV",
-    "pythId": "a19d04ac696c7a6616d291c7e5d1377cc8be437c327b75adb5dc1bad745fcae8",
-    "description": "Curve DAO",
-    "isActive": true
-  },
-  {
-    "symbol": "SUPEROETH",
-    "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
-    "description": "Super OETH",
-    "isActive": true
-  },
-  {
-    "symbol": "GRT",
-    "pythId": "4d1f8dae0d96236fb98e8f47471a366ec3b1732b47041781934ca3a9bb2f35e7",
-    "description": "The Graph",
-    "isActive": true
-  },
-  {
-    "symbol": "WBTC",
-    "pythId": "c9d8b075a5c69303365ae23633d4e085199bf5c520a3b90fed1322a0342ffc33",
-    "description": "Arbitrum Bridged WBTC (Arbitrum One)",
-    "isActive": true
-  },
-  {
-    "symbol": "PYTH",
-    "pythId": "0bbf28e9a841a1cc788f6a361b17ca072d0ea3098a1e5df1c3922d06719579ff",
-    "description": "Pyth Network",
-    "isActive": true
-  },
-  {
-    "symbol": "CFX",
-    "pythId": "8879170230c9603342f3837cf9a8e76c61791198fb1271bb2552c9af7b33c933",
-    "description": "Conflux",
-    "isActive": true
-  },
-  {
-    "symbol": "FLOKI",
-    "pythId": "6b1381ce7e874dc5410b197ac8348162c0dd6c0d4c9cd6322672d6c2b1d58293",
-    "description": "FLOKI",
-    "isActive": true
-  },
-  {
-    "symbol": "KAIA",
-    "pythId": "452d40e01473f95aa9930911b4392197b3551b37ac92a049e87487b654b4ebbe",
-    "description": "Kaia",
-    "isActive": true
-  },
-  {
-    "symbol": "WIF",
-    "pythId": "4ca4beeca86f0d164160323817a4e42b10010a724c2217c6ee41b54cd4cc61fc",
-    "description": "dogwifhat",
-    "isActive": true
-  },
-  {
-    "symbol": "CLBTC",
-    "pythId": "e62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
-    "description": "clBTC",
-    "isActive": true
-  },
-  {
-    "symbol": "RAY",
-    "pythId": "91568baa8beb53db23eb3fb7f22c6e8bd303d103919e19733f2bb642d3e7987a",
-    "description": "Raydium",
-    "isActive": true
-  },
-  {
-    "symbol": "CAKE",
-    "pythId": "2356af9529a1064d41e32d617e2ce1dca5733afa901daba9e2b68dee5d53ecf9",
-    "description": "PancakeSwap",
-    "isActive": true
-  },
-  {
-    "symbol": "CGETH.HASHKEY",
-    "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
-    "description": "cgETH Hashkey Cloud",
-    "isActive": true
-  },
-  {
-    "symbol": "PENDLE",
-    "pythId": "9a4df90b25497f66b1afb012467e316e801ca3d839456db028892fe8c70c8016",
-    "description": "Pendle",
-    "isActive": true
-  },
-  {
-    "symbol": "FARTCOIN",
-    "pythId": "58cd29ef0e714c5affc44f269b2c1899a52da4169d7acc147b9da692e6953608",
-    "description": "Fartcoin",
-    "isActive": true
-  },
-  {
-    "symbol": "ZEC",
-    "pythId": "be9b59d178f0d6a97ab4c343bff2aa69caa1eaae3e9048a65788c529b125bb24",
-    "description": "Zcash",
-    "isActive": true
-  },
-  {
-    "symbol": "THETA",
-    "pythId": "ee70804471fe22d029ac2d2b00ea18bbf4fb062958d425e5830fd25bed430345",
-    "description": "Theta Network",
-    "isActive": true
-  },
-  {
-    "symbol": "WETH",
-    "pythId": "9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6",
-    "description": "L2 Standard Bridged WETH (Base)",
-    "isActive": true
-  },
-  {
-    "symbol": "XTZ",
-    "pythId": "0affd4b8ad136a21d79bc82450a325ee12ff55a235abc242666e423b8bcffd03",
-    "description": "Tezos",
-    "isActive": true
-  },
-  {
-    "symbol": "VIRTUAL",
-    "pythId": "8132e3eb1dac3e56939a16ff83848d194345f6688bff97eb1c8bd462d558802b",
-    "description": "Virtuals Protocol",
-    "isActive": true
-  },
-  {
-    "symbol": "ATH",
-    "pythId": "f6b551a947e7990089e2d5149b1e44b369fcc6ad3627cb822362a2b19d24ad4a",
-    "description": "Aethir",
-    "isActive": true
-  },
-  {
-    "symbol": "GALA",
-    "pythId": "0781209c28fda797616212b7f94d77af3a01f3e94a5d421760aef020cf2bcb51",
-    "description": "GALA",
-    "isActive": true
-  },
-  {
-    "symbol": "ENS",
-    "pythId": "b98ab6023650bd2edc026b983fb7c2f8fa1020286f1ba6ecf3f4322cd83b72a6",
-    "description": "Ethereum Name Service",
-    "isActive": true
-  },
-  {
-    "symbol": "IOTA",
-    "pythId": "c7b72e5d860034288c9335d4d325da4272fe50c92ab72249d58f6cbba30e4c44",
-    "description": "IOTA",
-    "isActive": true
-  },
-  {
-    "symbol": "FORM",
-    "pythId": "fc7bd01c2dbe679c7d75619b943cece74b6e9c2e7681f67ad63bc3504caeb499",
-    "description": "Four",
-    "isActive": true
-  },
-  {
-    "symbol": "A",
-    "pythId": "2cffc28ec4268805dbcb315bb122616059a1c200dda3d56f06ac150db8dfc370",
-    "description": "Vaulta",
-    "isActive": true
-  },
-  {
-    "symbol": "SAND",
-    "pythId": "cb7a1d45139117f8d3da0a4b67264579aa905e3b124efede272634f094e1e9d1",
-    "description": "The Sandbox",
-    "isActive": true
-  },
-  {
-    "symbol": "RLUSD",
-    "pythId": "65652029e7acde632e80192dcaa6ea88e61d84a4c78a982a63e98f4bbcb288d5",
-    "description": "Ripple USD",
-    "isActive": true
-  },
-  {
-    "symbol": "OUSG",
-    "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
-    "description": "OUSG",
-    "isActive": true
-  },
-  {
-    "symbol": "JTO",
-    "pythId": "b43660a5f790c69354b0729a5ef9d50d68f1df92107540210b9cccba1f947cc2",
-    "description": "Jito",
-    "isActive": true
-  },
-  {
-    "symbol": "ETHFI",
-    "pythId": "b27578a9654246cb0a2950842b92330e9ace141c52b63829cc72d5c45a5a595a",
-    "description": "Ether.fi",
-    "isActive": true
-  },
-  {
-    "symbol": "JASMY",
-    "pythId": "2b386bdca7fda5cf3c3975f70318593bf144104cb00742592ecff60dd798972f",
-    "description": "JasmyCoin",
-    "isActive": true
-  },
-  {
-    "symbol": "TBTC",
-    "pythId": "56a3121958b01f99fdc4e1fd01e81050602c7ace3a571918bb55c6a96657cca9",
-    "description": "tBTC",
-    "isActive": true
-  },
-  {
-    "symbol": "DOGE",
-    "pythId": "dcef50dd0a4cd2dcc17e45df1676dcb336a11a61c69df7a0299b0150c672d25c",
-    "description": "Binance-Peg Dogecoin",
-    "isActive": true
-  },
-  {
-    "symbol": "ETHX",
-    "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
-    "description": "Stader ETHx",
-    "isActive": true
-  },
-  {
-    "symbol": "USDX",
-    "pythId": "8d0fa26c8dd1b22c9e3aef8ed5842848d123f391d2a8cc5a2209df694244a777",
-    "description": "Stables Labs USDX",
-    "isActive": true
-  },
-  {
-    "symbol": "USDY",
-    "pythId": "e393449f6aff8a4b6d3e1165a7c9ebec103685f3b41e60db4277b5b6d10e7326",
-    "description": "Ondo US Dollar Yield",
-    "isActive": true
-  },
-  {
-    "symbol": "MANA",
-    "pythId": "1dfffdcbc958d732750f53ff7f06d24bb01364b3f62abea511a390c74b8d16a5",
-    "description": "Decentraland",
-    "isActive": true
-  },
-  {
-    "symbol": "WETH",
-    "pythId": "9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6",
-    "description": "Arbitrum Bridged WETH (Arbitrum One)",
-    "isActive": true
-  },
-  {
-    "symbol": "MORPHO",
-    "pythId": "5b2a4c542d4a74dd11784079ef337c0403685e3114ba0d9909b5c7a7e06fdc42",
-    "description": "Morpho",
-    "isActive": true
-  },
-  {
-    "symbol": "AB",
-    "pythId": "2ee09cdb656959379b9262f89de5ff3d4dfed0dd34c072b3e22518496a65249c",
-    "description": "AB",
-    "isActive": true
-  },
-  {
-    "symbol": "FLOW",
-    "pythId": "2fb245b9a84554a0f15aa123cbb5f64cd263b59e9a87d80148cbffab50c69f30",
-    "description": "Flow",
-    "isActive": true
-  },
-  {
-    "symbol": "WAL",
-    "pythId": "eba0732395fae9dec4bae12e52760b35fc1c5671e2da8b449c9af4efe5d54341",
-    "description": "Walrus",
-    "isActive": true
-  },
-  {
-    "symbol": "BTT",
-    "pythId": "097d687437374051c75160d648800f021086bc8edf469f11284491fda8192315",
-    "description": "BitTorrent",
-    "isActive": true
-  },
-  {
-    "symbol": "CBETH",
-    "pythId": "15ecddd26d49e1a8f1de9376ebebc03916ede873447c1255d2d5891b92ce5717",
-    "description": "Coinbase Wrapped Staked ETH",
-    "isActive": true
-  },
-  {
-    "symbol": "CMETH",
-    "pythId": "2cffc28ec4268805dbcb315bb122616059a1c200dda3d56f06ac150db8dfc370",
-    "description": "Mantle Restaked ETH",
-    "isActive": true
-  },
-  {
-    "symbol": "SWETH",
-    "pythId": "2fd8f34e9e6cb5c1a757e1aeb919136da3ae6d0d2243b2ad93d661e590578cd1",
-    "description": "Swell Ethereum",
-    "isActive": true
-  },
-  {
-    "symbol": "USDG",
-    "pythId": "daa58c6a3ce7d4b9c46c32a6e646012c17c4a2b24c08dd8c5e476118b855a7da",
-    "description": "Global Dollar",
-    "isActive": true
-  },
-  {
-    "symbol": "USD0",
-    "pythId": "5e8c65917af89ed66d03d082b1ae5ac93b8ed8e32363a61842c33f7d66cb2e00",
-    "description": "Usual USD",
-    "isActive": true
-  },
-  {
-    "symbol": "B",
-    "pythId": "f788488fe2df341b10a498e0a789f03209c0938d9ed04bc521f8224748d6d236",
-    "description": "BUILDon",
-    "isActive": true
-  },
-  {
-    "symbol": "STRK",
-    "pythId": "6a182399ff70ccf3e06024898942028204125a819e519a335ffa4579e66cd870",
-    "description": "Starknet",
-    "isActive": true
-  },
-  {
-    "symbol": "LION",
-    "pythId": "a57e29fe0a3e6165a55a42675d94aaf27e1b0183e7dfa1b7e9e3514c70f622d0",
-    "description": "Loaded Lions",
-    "isActive": true
-  },
-  {
-    "symbol": "VSN",
-    "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
-    "description": "Vision",
-    "isActive": true
-  },
-  {
-    "symbol": "BTC.B",
-    "pythId": "e62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
-    "description": "Avalanche Bridged BTC (Avalanche)",
-    "isActive": true
-  },
-  {
-    "symbol": "EETH",
-    "pythId": "1edda53e477165d3b287e6f65253faba42052cc39d390cc9e64b4b5bf6c06cc7",
-    "description": "ether.fi Staked ETH",
-    "isActive": true
-  },
-  {
-    "symbol": "SAVAX",
-    "pythId": "93da3352f9f1d105fdfe4971cfa80e9dd777bfc5d0f683ebb6e1294b92137bb7",
-    "description": "BENQI Liquid Staked AVAX",
-    "isActive": true
-  },
-  {
-    "symbol": "EIGEN",
-    "pythId": "c65db025687356496e8653d0d6608eec64ce2d96e2e28c530e574f0e4f712380",
-    "description": "EigenCloud (prev. EigenLayer)",
-    "isActive": true
-  },
-  {
-    "symbol": "BSV",
-    "pythId": "b44565b8b9b39ab2f4ba792f1c8f8aa8ef7d780e709b191637ef886d96fd1472",
-    "description": "Bitcoin SV",
-    "isActive": true
-  },
-  {
-    "symbol": "USDD",
-    "pythId": "6d20210495d6518787b72e4ad06bc4df21e68d89a802cf6bced2fca6c29652a6",
-    "description": "USDD",
-    "isActive": true
-  },
-  {
-    "symbol": "BBSOL",
-    "pythId": "2997d5f9e96563cef9151cffc4580803930826fa38c4af5062de2363720769ea",
-    "description": "Bybit Staked SOL",
-    "isActive": true
-  },
-  {
-    "symbol": "WETH",
-    "pythId": "9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6",
-    "description": "Polygon PoS Bridged WETH (Polygon POS)",
-    "isActive": true
-  },
-  {
-    "symbol": "FRXETH",
-    "pythId": "29240ee3a9024d107888eb1d4c527216f06bd64cee030c6b5575b1a8d77cb659",
-    "description": "Frax Ether",
-    "isActive": true
-  },
-  {
-    "symbol": "DYDX",
-    "pythId": "6489800bb8974169adfe35937bf6736507097d13c190d760c557108c7e93a81b",
-    "description": "dYdX",
-    "isActive": true
-  },
-  {
-    "symbol": "USDT",
-    "pythId": "2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
-    "description": "Mantle Bridged USDT (Mantle)",
-    "isActive": true
-  },
-  {
-    "symbol": "BRETT",
-    "pythId": "9b5729efe3d68e537cdcb2ca70444dea5f06e1660b562632609757076d0b9448",
-    "description": "Brett",
-    "isActive": true
-  },
-  {
-    "symbol": "TUSD",
-    "pythId": "433faaa801ecdb6618e3897177a118b273a8e18cc3ff545aadfc207d58d028f7",
-    "description": "TrueUSD",
-    "isActive": true
-  },
-  {
-    "symbol": "SYRUP",
-    "pythId": "ed86e0c6321d790302e5d88751995ebc9079273e549005d68a83ba72e48ff1ce",
-    "description": "Maple Finance",
-    "isActive": true
-  },
-  {
-    "symbol": "HNT",
-    "pythId": "649fdd7ec08e8e2a20f425729854e90293dcbe2376abc47197a14da6ff339756",
-    "description": "Helium",
-    "isActive": true
-  },
-  {
-    "symbol": "APE",
-    "pythId": "15add95022ae13563a11992e727c91bdb6b55bc183d9d747436c80a483d8c864",
-    "description": "ApeCoin",
-    "isActive": true
-  },
-  {
-    "symbol": "NEO",
-    "pythId": "d82183dd487bef3208a227bb25d748930db58862c5121198e723ed0976eb92b7",
-    "description": "NEO",
-    "isActive": true
-  },
-  {
-    "symbol": "AR",
-    "pythId": "f610eae82767039ffc95eef8feaeddb7bbac0673cfe7773b2fde24fd1adb0aee",
-    "description": "Arweave",
-    "isActive": true
-  },
-  {
-    "symbol": "TEL",
-    "pythId": "7da003ada32eabbac855af3d22fcf0fe692cc589f0cfd5ced63cf0bdcc742efe",
-    "description": "Telcoin",
-    "isActive": true
-  },
-  {
-    "symbol": "DAI",
-    "pythId": "b0948a5e5313200c632b51bb5ca32f6de0d36e9950a942d19751e833f70dabfd",
-    "description": "Polygon PoS Bridged DAI (Polygon POS)",
-    "isActive": true
-  },
-  {
-    "symbol": "CORE",
-    "pythId": "9b4503710cc8c53f75c30e6e4fda1a7064680ef2e0ee97acd2e3a7c37b3c830c",
-    "description": "Core",
-    "isActive": true
-  },
-  {
-    "symbol": "USDC.E",
-    "pythId": "ffd11c5a1cfd42f80afb2df4d9f264c15f956d68153335374ec10722edd70472",
-    "description": "Bridged USDC (Polygon PoS Bridge)",
-    "isActive": true
-  },
-  {
-    "symbol": "RUNE",
-    "pythId": "5fcf71143bb70d41af4fa9aa1287e2efd3c5911cee59f909f915c9f61baacb1e",
-    "description": "THORChain",
-    "isActive": true
-  },
-  {
-    "symbol": "RSR",
-    "pythId": "fb7565b77267ba3f6ef770bed5d7f9b22b8542db676dbd9b934a2fcf945f4371",
-    "description": "Reserve Rights",
-    "isActive": true
-  },
-  {
-    "symbol": "NFT",
-    "pythId": "2cffc28ec4268805dbcb315bb122616059a1c200dda3d56f06ac150db8dfc370",
-    "description": "APENFT",
-    "isActive": true
-  }
-]
+    {
+      "symbol": "BTC",
+      "pythId": "e62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
+      "description": "Bitcoin",
+      "isActive": true
+    },
+    {
+      "symbol": "ETH",
+      "pythId": "ff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace",
+      "description": "Ethereum",
+      "isActive": true
+    },
+    {
+      "symbol": "XRP",
+      "pythId": "ec5d399846a9209f3fe5881d70aae9268c94339ff9817e8d18ff19fa05eea1c8",
+      "description": "XRP",
+      "isActive": true
+    },
+    {
+      "symbol": "USDT",
+      "pythId": "2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
+      "description": "Tether",
+      "isActive": true
+    },
+    {
+      "symbol": "BNB",
+      "pythId": "2f95862b045670cd22bee3114c39763a4a08beeb663b145d283c31d7d1101c4f",
+      "description": "BNB",
+      "isActive": true
+    },
+    {
+      "symbol": "SOL",
+      "pythId": "ef0d8b6fda2ceba41da15d4095d1da392a0d2f8ed0c6c7bc0f4cfac8c280b56d",
+      "description": "Solana",
+      "isActive": true
+    },
+    {
+      "symbol": "USDC",
+      "pythId": "eaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
+      "description": "USDC",
+      "isActive": true
+    },
+    {
+      "symbol": "DOGE",
+      "pythId": "dcef50dd0a4cd2dcc17e45df1676dcb336a11a61c69df7a0299b0150c672d25c",
+      "description": "Dogecoin",
+      "isActive": true
+    },
+    {
+      "symbol": "STETH",
+      "pythId": "846ae1bdb6300b817cee5fdee2a6da192775030db5615b94a465f53bd40850b5",
+      "description": "Lido Staked Ether",
+      "isActive": true
+    },
+    {
+      "symbol": "TRX",
+      "pythId": "67aed5a24fdad045475e7195c98a98aea119c763f272d4523f5bac93a4f33c2b",
+      "description": "TRON",
+      "isActive": true
+    },
+    {
+      "symbol": "ADA",
+      "pythId": "2a01deaec9e51a579277b34b122399984d0bbf57e2458a7e42fecd2829867a0d",
+      "description": "Cardano",
+      "isActive": true
+    },
+    {
+      "symbol": "WSTETH",
+      "pythId": "6df640f3b8963d8f8358f791f352b8364513f6ab1cca5ed3f1f7b5448980e784",
+      "description": "Wrapped stETH",
+      "isActive": true
+    },
+    {
+      "symbol": "LINK",
+      "pythId": "8ac0c70fff57e9aefdf5edf44b51d62c2d433653cbb2cf5cc06bb115af04d221",
+      "description": "Chainlink",
+      "isActive": true
+    },
+    {
+      "symbol": "WBETH",
+      "pythId": "a267be8dc252ce1e7981598af48ca0d0fe558caec7b11a9cf870fab5b7ab7c16",
+      "description": "Wrapped Beacon ETH",
+      "isActive": true
+    },
+    {
+      "symbol": "WBTC",
+      "pythId": "c9d8b075a5c69303365ae23633d4e085199bf5c520a3b90fed1322a0342ffc33",
+      "description": "Wrapped Bitcoin",
+      "isActive": true
+    },
+    {
+      "symbol": "HYPE",
+      "pythId": "4279e31cc369bbcc2faf022b382b080e32a8e689ff20fbc530d2a603eb6cd98b",
+      "description": "Hyperliquid",
+      "isActive": true
+    },
+    {
+      "symbol": "USDE",
+      "pythId": "6ec879b1e9963de5ee97e9c8710b742d6228252a5e2ca12d4ae81d7fe5ee8c5d",
+      "description": "Ethena USDe",
+      "isActive": true
+    },
+    {
+      "symbol": "SUI",
+      "pythId": "23d7315113f5b1d3ba7a83604c44b94d79f4fd69af77f804fc7f920a6dc65744",
+      "description": "Sui",
+      "isActive": true
+    },
+    {
+      "symbol": "AVAX",
+      "pythId": "93da3352f9f1d105fdfe4971cfa80e9dd777bfc5d0f683ebb6e1294b92137bb7",
+      "description": "Avalanche",
+      "isActive": true
+    },
+    {
+      "symbol": "FIGR_HELOC",
+      "pythId": "0f6539d2f188eef5cb9dfba796f4c40407e55df14bb668a81a9ba3678d5a625c",
+      "description": "Figure Heloc",
+      "isActive": true
+    },
+    {
+      "symbol": "XLM",
+      "pythId": "b7a8eba68a997cd0210c2e1e4ee811ad2d174b3611c22d9ebf16f4cb7e9ba850",
+      "description": "Stellar",
+      "isActive": true
+    },
+    {
+      "symbol": "WEETH",
+      "pythId": "9ee4e7c60b940440a261eb54b6d8149c23b580ed7da3139f7f08f4ea29dad395",
+      "description": "Wrapped eETH",
+      "isActive": true
+    },
+    {
+      "symbol": "BCH",
+      "pythId": "3dd2b63686a450ec7290df3a1e0b583c0481f651351edfa7636f39aed55cf8a3",
+      "description": "Bitcoin Cash",
+      "isActive": true
+    },
+    {
+      "symbol": "WETH",
+      "pythId": "9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6",
+      "description": "WETH",
+      "isActive": true
+    },
+    {
+      "symbol": "HBAR",
+      "pythId": "3728e591097635310e6341af53db8b7ee42da9b3a8d918f9463ce9cca886dfbd",
+      "description": "Hedera",
+      "isActive": true
+    },
+    {
+      "symbol": "LEO",
+      "pythId": "19e4e2b451406cf99311bb5127b12a948db17f30b69c323c8657d71119a58619",
+      "description": "LEO Token",
+      "isActive": true
+    },
+    {
+      "symbol": "LTC",
+      "pythId": "6e3f3fa8253588df9326580180233eb791e03b443a3ba7a1d892e73874e19a54",
+      "description": "Litecoin",
+      "isActive": true
+    },
+    {
+      "symbol": "TON",
+      "pythId": "8963217838ab4cf5cadc172203c1f0b763fbaa45f346d8ee50ba994bbcac3026",
+      "description": "Toncoin",
+      "isActive": true
+    },
+    {
+      "symbol": "CRO",
+      "pythId": "23199c2bcb1303f667e733b9934db9eca5991e765b45f5ed18bc4b231415f2fe",
+      "description": "Cronos",
+      "isActive": true
+    },
+    {
+      "symbol": "USDS",
+      "pythId": "77f0971af11cc8bac224917275c1bf55f2319ed5c654a1ca955c82fa2d297ea1",
+      "description": "USDS",
+      "isActive": true
+    },
+    {
+      "symbol": "SHIB",
+      "pythId": "f0d57deca57b3da2fe63a493f4c25925fdfd8edf834b20f93e1f84dbd1504d4a",
+      "description": "Shiba Inu",
+      "isActive": true
+    },
+    {
+      "symbol": "CBBTC",
+      "pythId": "2817d7bfe5c64b8ea956e9a26f573ef64e72e4d7891f2d6af9bcc93f7aff9a97",
+      "description": "Coinbase Wrapped BTC",
+      "isActive": true
+    },
+    {
+      "symbol": "BSC-USD",
+      "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
+      "description": "Binance Bridged USDT (BNB Smart Chain)",
+      "isActive": true
+    },
+    {
+      "symbol": "DOT",
+      "pythId": "ca3eed9b267293f6595901c734c7525ce8ef49adafe8284606ceb307afa2ca5b",
+      "description": "Polkadot",
+      "isActive": true
+    },
+    {
+      "symbol": "WBT",
+      "pythId": "eff7446475e218517566ea99e72a4abec2e1bd8498b43b7d8331e29dcb059389",
+      "description": "WhiteBIT Coin",
+      "isActive": true
+    },
+    {
+      "symbol": "WLFI",
+      "pythId": "d41369178d64f41d51ca95465c144a2c74d2fff30be69164835911943fa64c3e",
+      "description": "World Liberty Financial",
+      "isActive": true
+    },
+    {
+      "symbol": "XMR",
+      "pythId": "46b8cc9347f04391764a0361e0b17c3ba394b001e7c304f7650f6376e37c321d",
+      "description": "Monero",
+      "isActive": true
+    },
+    {
+      "symbol": "SUSDE",
+      "pythId": "ca3ba9a619a4b3755c10ac7d5e760275aa95e9823d38a84fedd416856cdba37c",
+      "description": "Ethena Staked USDe",
+      "isActive": true
+    },
+    {
+      "symbol": "UNI",
+      "pythId": "78d185a741d07edb3412b09008b7c5cfb9bbbd7d568bf00ba737b456ba171501",
+      "description": "Uniswap",
+      "isActive": true
+    },
+    {
+      "symbol": "MNT",
+      "pythId": "4e3037c822d852d79af3ac80e35eb420ee3b870dca49f9344a38ef4773fb0585",
+      "description": "Mantle",
+      "isActive": true
+    },
+    {
+      "symbol": "ENA",
+      "pythId": "b7910ba7322db020416fcac28b48c01212fd9cc8fbcbaf7d30477ed8605f6bd4",
+      "description": "Ethena",
+      "isActive": true
+    },
+    {
+      "symbol": "PEPE",
+      "pythId": "d69731a2e74ac1ce884fc3890f7ee324b6deb66147055249568869ed700882e4",
+      "description": "Pepe",
+      "isActive": true
+    },
+    {
+      "symbol": "BGB",
+      "pythId": "708bfcf418ead52a408407b039f2c33ce24ddc80d6dcb6d1cffef91c156c80fa",
+      "description": "Bitget Token",
+      "isActive": true
+    },
+    {
+      "symbol": "DAI",
+      "pythId": "b0948a5e5313200c632b51bb5ca32f6de0d36e9950a942d19751e833f70dabfd",
+      "description": "Dai",
+      "isActive": true
+    },
+    {
+      "symbol": "AAVE",
+      "pythId": "2b9ab1e972a281585084148ba1389800799bd4be63b957507db1349314e47445",
+      "description": "Aave",
+      "isActive": true
+    },
+    {
+      "symbol": "OKB",
+      "pythId": "d6f83dfeaff95d596ddec26af2ee32f391c206a183b161b7980821860eeef2f5",
+      "description": "OKB",
+      "isActive": true
+    },
+    {
+      "symbol": "M",
+      "pythId": "3871d0ef1cf9e26005e4bbf7822f67a8883071a9d8a4e7a0125d2484cca7671f",
+      "description": "MemeCore",
+      "isActive": true
+    },
+    {
+      "symbol": "JITOSOL",
+      "pythId": "67be9f519b95cf24338801051f9a808eff0a578ccb388db73b7f6fe1de019ffb",
+      "description": "Jito Staked SOL",
+      "isActive": true
+    },
+    {
+      "symbol": "NEAR",
+      "pythId": "c415de8d2eba7db216527dff4b60e8f3a5311c740dadb233e13e12547e226750",
+      "description": "NEAR Protocol",
+      "isActive": true
+    },
+    {
+      "symbol": "TAO",
+      "pythId": "410f41de235f2db824e562ea7ab2d3d3d4ff048316c61d629c0b93f58584e1af",
+      "description": "Bittensor",
+      "isActive": true
+    },
+    {
+      "symbol": "ONDO",
+      "pythId": "d40472610abe56d36d065a0cf889fc8f1dd9f3b7f2a478231a5fc6df07ea5ce3",
+      "description": "Ondo",
+      "isActive": true
+    },
+    {
+      "symbol": "ETC",
+      "pythId": "7f5cc8d963fc5b3d2ae41fe5685ada89fd4f14b435f8050f28c7fd409f40c2d8",
+      "description": "Ethereum Classic",
+      "isActive": true
+    },
+    {
+      "symbol": "APT",
+      "pythId": "03ae4db29ed4ae33d323568895aa00337e658e348b37509f5372ae51f0af00d5",
+      "description": "Aptos",
+      "isActive": true
+    },
+    {
+      "symbol": "IP",
+      "pythId": "b620ba83044577029da7e4ded7a2abccf8e6afc2a0d4d26d89ccdd39ec109025",
+      "description": "Story",
+      "isActive": true
+    },
+    {
+      "symbol": "WLD",
+      "pythId": "d6835ad1f773de4a378115eb6824bd0c0e42d84d1c84d9750e853fb6b6c7794a",
+      "description": "Worldcoin",
+      "isActive": true
+    },
+    {
+      "symbol": "BNSOL",
+      "pythId": "55f8289be7450f1ae564dd9798e49e7d797d89adbc54fe4f8c906b1fcb94b0c3",
+      "description": "Binance Staked SOL",
+      "isActive": true
+    },
+    {
+      "symbol": "PUMP",
+      "pythId": "7a01fca212788bba7c5bf8c9efd576a8a722f070d2c17596ff7bb609b8d5c3b9",
+      "description": "Pump.fun",
+      "isActive": true
+    },
+    {
+      "symbol": "PI",
+      "pythId": "8c102183926ffc9a1a1347a5a583661af37b415e93ea3f3591e94c303ed4f514",
+      "description": "Pi Network",
+      "isActive": true
+    },
+    {
+      "symbol": "USDT0",
+      "pythId": "cfc1303ea9f083b1b4f99e1369fb9d2611f3230d5ea33a6abf2f86071c089fdc",
+      "description": "USDT0",
+      "isActive": true
+    },
+    {
+      "symbol": "WETH",
+      "pythId": "9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6",
+      "description": "Binance-Peg WETH",
+      "isActive": true
+    },
+    {
+      "symbol": "POL",
+      "pythId": "ffd11c5a1cfd42f80afb2df4d9f264c15f956d68153335374ec10722edd70472",
+      "description": "POL (ex-MATIC)",
+      "isActive": true
+    },
+    {
+      "symbol": "USD1",
+      "pythId": "0a2425d43486780990d8b63543029e20556be51fd756cca584212f4d539611d4",
+      "description": "USD1",
+      "isActive": true
+    },
+    {
+      "symbol": "ARB",
+      "pythId": "3fa4252848f9f0a1480be62745a4629d9eb1322aebab8a791e344b3b9c1adcf5",
+      "description": "Arbitrum",
+      "isActive": true
+    },
+    {
+      "symbol": "ICP",
+      "pythId": "c9907d786c5821547777780a1e4f89484f3417cb14dd244f2b0a34ea7a554d67",
+      "description": "Internet Computer",
+      "isActive": true
+    },
+    {
+      "symbol": "KAS",
+      "pythId": "dfd3cb51a9d39fde35a3ff6177b426def03ed48d45008248f22827d8bf50cab4",
+      "description": "Kaspa",
+      "isActive": true
+    },
+    {
+      "symbol": "JLP",
+      "pythId": "c811abc82b4bad1f9bd711a2773ccaa935b03ecef974236942cec5e0eb845a3a",
+      "description": "Jupiter Perpetuals Liquidity Provider Token",
+      "isActive": true
+    },
+    {
+      "symbol": "MYX",
+      "pythId": "19f2cec610f000c63b704ee3380bf7cb0ef94a110f72fd970def9fac4862bde8",
+      "description": "MYX Finance",
+      "isActive": true
+    },
+    {
+      "symbol": "PENGU",
+      "pythId": "bed3097008b9b5e3c93bec20be79cb43986b85a996475589351a21e67bae9b61",
+      "description": "Pudgy Penguins",
+      "isActive": true
+    },
+    {
+      "symbol": "BUIDL",
+      "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
+      "description": "BlackRock USD Institutional Digital Liquidity Fund",
+      "isActive": true
+    },
+    {
+      "symbol": "KHYPE",
+      "pythId": "2837a61ae8165c018b0e406ac32b1527270e57b81f0069260afbef71b9cf8ffe",
+      "description": "Kinetiq Staked HYPE",
+      "isActive": true
+    },
+    {
+      "symbol": "ATOM",
+      "pythId": "b00b60f88b03a6a625a8d1c048c3f66653edf217439983d037e7222c4e612819",
+      "description": "Cosmos Hub",
+      "isActive": true
+    },
+    {
+      "symbol": "SUSDS",
+      "pythId": "77f0971af11cc8bac224917275c1bf55f2319ed5c654a1ca955c82fa2d297ea1",
+      "description": "sUSDS",
+      "isActive": true
+    },
+    {
+      "symbol": "VET",
+      "pythId": "1722176f738aa1aafea170f8b27724042c5ac6d8cb9cf8ae02d692b0927e0681",
+      "description": "VeChain",
+      "isActive": true
+    },
+    {
+      "symbol": "ALGO",
+      "pythId": "fa17ceaf30d19ba51112fdcc750cc83454776f47fb0112e4af07f15f4bb1ebc0",
+      "description": "Algorand",
+      "isActive": true
+    },
+    {
+      "symbol": "KCS",
+      "pythId": "c8acad81438490d4ebcac23b3e93f31cdbcb893fcba746ea1c66b89684faae2f",
+      "description": "KuCoin",
+      "isActive": true
+    },
+    {
+      "symbol": "RETH",
+      "pythId": "a0255134973f4fdf2f8f7808354274a3b1ebc6ee438be898d045e8b56ba1fe13",
+      "description": "Rocket Pool ETH",
+      "isActive": true
+    },
+    {
+      "symbol": "GT",
+      "pythId": "051ee6cdd581106d0291dfd9b0ee13e6b4dde8fb251afd262c2ba5444257daa8",
+      "description": "Gate",
+      "isActive": true
+    },
+    {
+      "symbol": "RENDER",
+      "pythId": "3d4a2bd9535be6ce8059d75eadeba507b043257321aa544717c56fa19b49e35d",
+      "description": "Render",
+      "isActive": true
+    },
+    {
+      "symbol": "SEI",
+      "pythId": "53614f1cb0c031d4af66c04cb9c756234adad0e1cee85303795091499a4084eb",
+      "description": "Sei",
+      "isActive": true
+    },
+    {
+      "symbol": "FTN",
+      "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
+      "description": "Fasttoken",
+      "isActive": true
+    },
+    {
+      "symbol": "RSETH",
+      "pythId": "0caec284d34d836ca325cf7b3256c078c597bc052fbd3c0283d52b581d68d71f",
+      "description": "Kelp DAO Restaked ETH",
+      "isActive": true
+    },
+    {
+      "symbol": "BONK",
+      "pythId": "72b021217ca3fe68922a19aaf990109cb9d84e9ad004b4d2025ad6f529314419",
+      "description": "Bonk",
+      "isActive": true
+    },
+    {
+      "symbol": "USDF",
+      "pythId": "2cffc28ec4268805dbcb315bb122616059a1c200dda3d56f06ac150db8dfc370",
+      "description": "Falcon USD",
+      "isActive": true
+    },
+    {
+      "symbol": "USDTB",
+      "pythId": "e4731214382d8ed70a766930a7722c68064fc7ed4e6d70dbce3c84d4be81bc92",
+      "description": "USDtb",
+      "isActive": true
+    },
+    {
+      "symbol": "FIL",
+      "pythId": "150ac9b959aee0051e4091f0ef5216d941f590e1c5e7f91cf7635b5c11628c0e",
+      "description": "Filecoin",
+      "isActive": true
+    },
+    {
+      "symbol": "HASH",
+      "pythId": "d1eea292e03d27a5368818ebf4c2704bf7b05ea18497b53be57e5d7abaeaade9",
+      "description": "Provenance Blockchain",
+      "isActive": true
+    },
+    {
+      "symbol": "TRUMP",
+      "pythId": "879551021853eec7a7dc827578e8e69da7e4fa8148339aa0d3d5296405be4b1a",
+      "description": "Official Trump",
+      "isActive": true
+    },
+    {
+      "symbol": "SKY",
+      "pythId": "a483243eed64ca27a1f6e26385b7d1e0d07e9fe264bb6903efb3efc4689d3fe7",
+      "description": "Sky",
+      "isActive": true
+    },
+    {
+      "symbol": "FLR",
+      "pythId": "035aa8d0a2d74e19438f2c1440edff9f3b95f915ca65f681a25ed0bad3dc228d",
+      "description": "Flare",
+      "isActive": true
+    },
+    {
+      "symbol": "BFUSD",
+      "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
+      "description": "BFUSD",
+      "isActive": true
+    },
+    {
+      "symbol": "OSETH",
+      "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
+      "description": "StakeWise Staked ETH",
+      "isActive": true
+    },
+    {
+      "symbol": "FET",
+      "pythId": "7da003ada32eabbac855af3d22fcf0fe692cc589f0cfd5ced63cf0bdcc742efe",
+      "description": "Artificial Superintelligence Alliance",
+      "isActive": true
+    },
+    {
+      "symbol": "LSETH",
+      "pythId": "ff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace",
+      "description": "Liquid Staked ETH",
+      "isActive": true
+    },
+    {
+      "symbol": "JUP",
+      "pythId": "0a0408d619e9380abad35060f9192039ed5042fa6f82301d0e48bb52be830996",
+      "description": "Jupiter",
+      "isActive": true
+    },
+    {
+      "symbol": "LBTC",
+      "pythId": "8f257aab6e7698bb92b15511915e593d6f8eae914452f781874754b03d0c612b",
+      "description": "Lombard Staked BTC",
+      "isActive": true
+    },
+    {
+      "symbol": "QNT",
+      "pythId": "19ab139032007c8bd7d1fd3842ef392a5434569a72b555504a5aee47df2a0a35",
+      "description": "Quant",
+      "isActive": true
+    },
+    {
+      "symbol": "EZETH",
+      "pythId": "06c217a791f5c4f988b36629af4cb88fad827b2485400a358f3b02886b54de92",
+      "description": "Renzo Restaked ETH",
+      "isActive": true
+    },
+    {
+      "symbol": "USDT",
+      "pythId": "2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
+      "description": "Polygon Bridged USDT (Polygon)",
+      "isActive": true
+    },
+    {
+      "symbol": "XAUT",
+      "pythId": "44465e17d2e9d390e70c999d5a11fda4f092847fcd2e3e5aa089d96c98a30e67",
+      "description": "Tether Gold",
+      "isActive": true
+    },
+    {
+      "symbol": "OP",
+      "pythId": "385f64d993f7b77d8182ed5003d97c60aa3361f3cecfe711544d2d59165e9bdf",
+      "description": "Optimism",
+      "isActive": true
+    },
+    {
+      "symbol": "XDC",
+      "pythId": "f689a76211f3505826357e49ddd683221d9632735e2b27fd07fb1805c47cdace",
+      "description": "XDC Network",
+      "isActive": true
+    },
+    {
+      "symbol": "INJ",
+      "pythId": "7a5bc1d2b56ad029048cd63964b3ad2776eadf812edc1a43a31406cb54bff592",
+      "description": "Injective",
+      "isActive": true
+    },
+    {
+      "symbol": "TIA",
+      "pythId": "09f7c1d7dfbb7df2b8fe3d3d87ee94a2259d212da4f30c1f0540d066dfa44723",
+      "description": "Celestia",
+      "isActive": true
+    },
+    {
+      "symbol": "IMX",
+      "pythId": "941320a8989414874de5aa2fc340a75d5ed91fdff1613dd55f83844d52ea63a2",
+      "description": "Immutable",
+      "isActive": true
+    },
+    {
+      "symbol": "JUPSOL",
+      "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
+      "description": "Jupiter Staked SOL",
+      "isActive": true
+    },
+    {
+      "symbol": "NEXO",
+      "pythId": "e5f406d97d7fa159c21647912b72aa8c669e24d7bd59bcd518587bbde027c531",
+      "description": "NEXO",
+      "isActive": true
+    },
+    {
+      "symbol": "PYUSD",
+      "pythId": "c1da1b73d7f01e7ddd54b3766cf7fcd644395ad14f70aa706ec5384c59e76692",
+      "description": "PayPal USD",
+      "isActive": true
+    },
+    {
+      "symbol": "WBNB",
+      "pythId": "2f95862b045670cd22bee3114c39763a4a08beeb663b145d283c31d7d1101c4f",
+      "description": "Wrapped BNB",
+      "isActive": true
+    },
+    {
+      "symbol": "SPX",
+      "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
+      "description": "SPX6900",
+      "isActive": true
+    },
+    {
+      "symbol": "SOLVBTC",
+      "pythId": "f253cf87dc7d5ed5aa14cba5a6e79aee8bcfaef885a0e1b807035a0bbecc36fa",
+      "description": "Solv Protocol BTC",
+      "isActive": true
+    },
+    {
+      "symbol": "STX",
+      "pythId": "ec7a775f46379b5e943c3526b1c8d54cd49749176b0b98e02dde68d1bd335c17",
+      "description": "Stacks",
+      "isActive": true
+    },
+    {
+      "symbol": "METH",
+      "pythId": "fbc9c3a716650b6e24ab22ab85b1c0ef4141b18f4590cc0b986e2f9064cf73d6",
+      "description": "Mantle Staked Ether",
+      "isActive": true
+    },
+    {
+      "symbol": "S",
+      "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
+      "description": "Sonic",
+      "isActive": true
+    },
+    {
+      "symbol": "FDUSD",
+      "pythId": "ccdc1a08923e2e4f4b1e6ea89de6acbc5fe1948e9706f5604b8cb50bc1ed3979",
+      "description": "First Digital USD",
+      "isActive": true
+    },
+    {
+      "symbol": "SYRUPUSDC",
+      "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
+      "description": "syrupUSDC",
+      "isActive": true
+    },
+    {
+      "symbol": "AERO",
+      "pythId": "9db37f4d5654aad3e37e2e14ffd8d53265fb3026d1d8f91146539eebaa2ef45f",
+      "description": "Aerodrome Finance",
+      "isActive": true
+    },
+    {
+      "symbol": "MSOL",
+      "pythId": "c2289a6a43d2ce91c6f55caec370f4acc38a2ed477f58813334c6d03749ff2a4",
+      "description": "Marinade Staked SOL",
+      "isActive": true
+    },
+    {
+      "symbol": "LDO",
+      "pythId": "c63e2a7f37a04e5e614c07238bedb25dcc38927fba8fe890597a593c0b2fa4ad",
+      "description": "Lido DAO",
+      "isActive": true
+    },
+    {
+      "symbol": "PAXG",
+      "pythId": "273717b49430906f4b0c230e99aa1007f83758e3199edbc887c0d06c3e332494",
+      "description": "PAX Gold",
+      "isActive": true
+    },
+    {
+      "symbol": "SAROS",
+      "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
+      "description": "Saros",
+      "isActive": true
+    },
+    {
+      "symbol": "USDC",
+      "pythId": "eaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
+      "description": "Binance Bridged USDC (BNB Smart Chain)",
+      "isActive": true
+    },
+    {
+      "symbol": "CRV",
+      "pythId": "a19d04ac696c7a6616d291c7e5d1377cc8be437c327b75adb5dc1bad745fcae8",
+      "description": "Curve DAO",
+      "isActive": true
+    },
+    {
+      "symbol": "SUPEROETH",
+      "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
+      "description": "Super OETH",
+      "isActive": true
+    },
+    {
+      "symbol": "GRT",
+      "pythId": "4d1f8dae0d96236fb98e8f47471a366ec3b1732b47041781934ca3a9bb2f35e7",
+      "description": "The Graph",
+      "isActive": true
+    },
+    {
+      "symbol": "WBTC",
+      "pythId": "c9d8b075a5c69303365ae23633d4e085199bf5c520a3b90fed1322a0342ffc33",
+      "description": "Arbitrum Bridged WBTC (Arbitrum One)",
+      "isActive": true
+    },
+    {
+      "symbol": "PYTH",
+      "pythId": "0bbf28e9a841a1cc788f6a361b17ca072d0ea3098a1e5df1c3922d06719579ff",
+      "description": "Pyth Network",
+      "isActive": true
+    },
+    {
+      "symbol": "CFX",
+      "pythId": "8879170230c9603342f3837cf9a8e76c61791198fb1271bb2552c9af7b33c933",
+      "description": "Conflux",
+      "isActive": true
+    },
+    {
+      "symbol": "FLOKI",
+      "pythId": "6b1381ce7e874dc5410b197ac8348162c0dd6c0d4c9cd6322672d6c2b1d58293",
+      "description": "FLOKI",
+      "isActive": true
+    },
+    {
+      "symbol": "KAIA",
+      "pythId": "452d40e01473f95aa9930911b4392197b3551b37ac92a049e87487b654b4ebbe",
+      "description": "Kaia",
+      "isActive": true
+    },
+    {
+      "symbol": "WIF",
+      "pythId": "4ca4beeca86f0d164160323817a4e42b10010a724c2217c6ee41b54cd4cc61fc",
+      "description": "dogwifhat",
+      "isActive": true
+    },
+    {
+      "symbol": "CLBTC",
+      "pythId": "e62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
+      "description": "clBTC",
+      "isActive": true
+    },
+    {
+      "symbol": "RAY",
+      "pythId": "91568baa8beb53db23eb3fb7f22c6e8bd303d103919e19733f2bb642d3e7987a",
+      "description": "Raydium",
+      "isActive": true
+    },
+    {
+      "symbol": "CAKE",
+      "pythId": "2356af9529a1064d41e32d617e2ce1dca5733afa901daba9e2b68dee5d53ecf9",
+      "description": "PancakeSwap",
+      "isActive": true
+    },
+    {
+      "symbol": "CGETH.HASHKEY",
+      "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
+      "description": "cgETH Hashkey Cloud",
+      "isActive": true
+    },
+    {
+      "symbol": "PENDLE",
+      "pythId": "9a4df90b25497f66b1afb012467e316e801ca3d839456db028892fe8c70c8016",
+      "description": "Pendle",
+      "isActive": true
+    },
+    {
+      "symbol": "FARTCOIN",
+      "pythId": "58cd29ef0e714c5affc44f269b2c1899a52da4169d7acc147b9da692e6953608",
+      "description": "Fartcoin",
+      "isActive": true
+    },
+    {
+      "symbol": "ZEC",
+      "pythId": "be9b59d178f0d6a97ab4c343bff2aa69caa1eaae3e9048a65788c529b125bb24",
+      "description": "Zcash",
+      "isActive": true
+    },
+    {
+      "symbol": "THETA",
+      "pythId": "ee70804471fe22d029ac2d2b00ea18bbf4fb062958d425e5830fd25bed430345",
+      "description": "Theta Network",
+      "isActive": true
+    },
+    {
+      "symbol": "WETH",
+      "pythId": "9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6",
+      "description": "L2 Standard Bridged WETH (Base)",
+      "isActive": true
+    },
+    {
+      "symbol": "XTZ",
+      "pythId": "0affd4b8ad136a21d79bc82450a325ee12ff55a235abc242666e423b8bcffd03",
+      "description": "Tezos",
+      "isActive": true
+    },
+    {
+      "symbol": "VIRTUAL",
+      "pythId": "8132e3eb1dac3e56939a16ff83848d194345f6688bff97eb1c8bd462d558802b",
+      "description": "Virtuals Protocol",
+      "isActive": true
+    },
+    {
+      "symbol": "ATH",
+      "pythId": "f6b551a947e7990089e2d5149b1e44b369fcc6ad3627cb822362a2b19d24ad4a",
+      "description": "Aethir",
+      "isActive": true
+    },
+    {
+      "symbol": "GALA",
+      "pythId": "0781209c28fda797616212b7f94d77af3a01f3e94a5d421760aef020cf2bcb51",
+      "description": "GALA",
+      "isActive": true
+    },
+    {
+      "symbol": "ENS",
+      "pythId": "b98ab6023650bd2edc026b983fb7c2f8fa1020286f1ba6ecf3f4322cd83b72a6",
+      "description": "Ethereum Name Service",
+      "isActive": true
+    },
+    {
+      "symbol": "IOTA",
+      "pythId": "c7b72e5d860034288c9335d4d325da4272fe50c92ab72249d58f6cbba30e4c44",
+      "description": "IOTA",
+      "isActive": true
+    },
+    {
+      "symbol": "FORM",
+      "pythId": "fc7bd01c2dbe679c7d75619b943cece74b6e9c2e7681f67ad63bc3504caeb499",
+      "description": "Four",
+      "isActive": true
+    },
+    {
+      "symbol": "A",
+      "pythId": "2cffc28ec4268805dbcb315bb122616059a1c200dda3d56f06ac150db8dfc370",
+      "description": "Vaulta",
+      "isActive": true
+    },
+    {
+      "symbol": "SAND",
+      "pythId": "cb7a1d45139117f8d3da0a4b67264579aa905e3b124efede272634f094e1e9d1",
+      "description": "The Sandbox",
+      "isActive": true
+    },
+    {
+      "symbol": "RLUSD",
+      "pythId": "65652029e7acde632e80192dcaa6ea88e61d84a4c78a982a63e98f4bbcb288d5",
+      "description": "Ripple USD",
+      "isActive": true
+    },
+    {
+      "symbol": "OUSG",
+      "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
+      "description": "OUSG",
+      "isActive": true
+    },
+    {
+      "symbol": "JTO",
+      "pythId": "b43660a5f790c69354b0729a5ef9d50d68f1df92107540210b9cccba1f947cc2",
+      "description": "Jito",
+      "isActive": true
+    },
+    {
+      "symbol": "ETHFI",
+      "pythId": "b27578a9654246cb0a2950842b92330e9ace141c52b63829cc72d5c45a5a595a",
+      "description": "Ether.fi",
+      "isActive": true
+    },
+    {
+      "symbol": "JASMY",
+      "pythId": "2b386bdca7fda5cf3c3975f70318593bf144104cb00742592ecff60dd798972f",
+      "description": "JasmyCoin",
+      "isActive": true
+    },
+    {
+      "symbol": "TBTC",
+      "pythId": "56a3121958b01f99fdc4e1fd01e81050602c7ace3a571918bb55c6a96657cca9",
+      "description": "tBTC",
+      "isActive": true
+    },
+    {
+      "symbol": "DOGE",
+      "pythId": "dcef50dd0a4cd2dcc17e45df1676dcb336a11a61c69df7a0299b0150c672d25c",
+      "description": "Binance-Peg Dogecoin",
+      "isActive": true
+    },
+    {
+      "symbol": "ETHX",
+      "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
+      "description": "Stader ETHx",
+      "isActive": true
+    },
+    {
+      "symbol": "USDX",
+      "pythId": "8d0fa26c8dd1b22c9e3aef8ed5842848d123f391d2a8cc5a2209df694244a777",
+      "description": "Stables Labs USDX",
+      "isActive": true
+    },
+    {
+      "symbol": "USDY",
+      "pythId": "e393449f6aff8a4b6d3e1165a7c9ebec103685f3b41e60db4277b5b6d10e7326",
+      "description": "Ondo US Dollar Yield",
+      "isActive": true
+    },
+    {
+      "symbol": "MANA",
+      "pythId": "1dfffdcbc958d732750f53ff7f06d24bb01364b3f62abea511a390c74b8d16a5",
+      "description": "Decentraland",
+      "isActive": true
+    },
+    {
+      "symbol": "WETH",
+      "pythId": "9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6",
+      "description": "Arbitrum Bridged WETH (Arbitrum One)",
+      "isActive": true
+    },
+    {
+      "symbol": "MORPHO",
+      "pythId": "5b2a4c542d4a74dd11784079ef337c0403685e3114ba0d9909b5c7a7e06fdc42",
+      "description": "Morpho",
+      "isActive": true
+    },
+    {
+      "symbol": "AB",
+      "pythId": "2ee09cdb656959379b9262f89de5ff3d4dfed0dd34c072b3e22518496a65249c",
+      "description": "AB",
+      "isActive": true
+    },
+    {
+      "symbol": "FLOW",
+      "pythId": "2fb245b9a84554a0f15aa123cbb5f64cd263b59e9a87d80148cbffab50c69f30",
+      "description": "Flow",
+      "isActive": true
+    },
+    {
+      "symbol": "WAL",
+      "pythId": "eba0732395fae9dec4bae12e52760b35fc1c5671e2da8b449c9af4efe5d54341",
+      "description": "Walrus",
+      "isActive": true
+    },
+    {
+      "symbol": "BTT",
+      "pythId": "097d687437374051c75160d648800f021086bc8edf469f11284491fda8192315",
+      "description": "BitTorrent",
+      "isActive": true
+    },
+    {
+      "symbol": "CBETH",
+      "pythId": "15ecddd26d49e1a8f1de9376ebebc03916ede873447c1255d2d5891b92ce5717",
+      "description": "Coinbase Wrapped Staked ETH",
+      "isActive": true
+    },
+    {
+      "symbol": "CMETH",
+      "pythId": "2cffc28ec4268805dbcb315bb122616059a1c200dda3d56f06ac150db8dfc370",
+      "description": "Mantle Restaked ETH",
+      "isActive": true
+    },
+    {
+      "symbol": "SWETH",
+      "pythId": "2fd8f34e9e6cb5c1a757e1aeb919136da3ae6d0d2243b2ad93d661e590578cd1",
+      "description": "Swell Ethereum",
+      "isActive": true
+    },
+    {
+      "symbol": "USDG",
+      "pythId": "daa58c6a3ce7d4b9c46c32a6e646012c17c4a2b24c08dd8c5e476118b855a7da",
+      "description": "Global Dollar",
+      "isActive": true
+    },
+    {
+      "symbol": "USD0",
+      "pythId": "5e8c65917af89ed66d03d082b1ae5ac93b8ed8e32363a61842c33f7d66cb2e00",
+      "description": "Usual USD",
+      "isActive": true
+    },
+    {
+      "symbol": "B",
+      "pythId": "f788488fe2df341b10a498e0a789f03209c0938d9ed04bc521f8224748d6d236",
+      "description": "BUILDon",
+      "isActive": true
+    },
+    {
+      "symbol": "STRK",
+      "pythId": "6a182399ff70ccf3e06024898942028204125a819e519a335ffa4579e66cd870",
+      "description": "Starknet",
+      "isActive": true
+    },
+    {
+      "symbol": "LION",
+      "pythId": "a57e29fe0a3e6165a55a42675d94aaf27e1b0183e7dfa1b7e9e3514c70f622d0",
+      "description": "Loaded Lions",
+      "isActive": true
+    },
+    {
+      "symbol": "VSN",
+      "pythId": "f490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d",
+      "description": "Vision",
+      "isActive": true
+    },
+    {
+      "symbol": "BTC.B",
+      "pythId": "e62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
+      "description": "Avalanche Bridged BTC (Avalanche)",
+      "isActive": true
+    },
+    {
+      "symbol": "EETH",
+      "pythId": "1edda53e477165d3b287e6f65253faba42052cc39d390cc9e64b4b5bf6c06cc7",
+      "description": "ether.fi Staked ETH",
+      "isActive": true
+    },
+    {
+      "symbol": "SAVAX",
+      "pythId": "93da3352f9f1d105fdfe4971cfa80e9dd777bfc5d0f683ebb6e1294b92137bb7",
+      "description": "BENQI Liquid Staked AVAX",
+      "isActive": true
+    },
+    {
+      "symbol": "EIGEN",
+      "pythId": "c65db025687356496e8653d0d6608eec64ce2d96e2e28c530e574f0e4f712380",
+      "description": "EigenCloud (prev. EigenLayer)",
+      "isActive": true
+    },
+    {
+      "symbol": "BSV",
+      "pythId": "b44565b8b9b39ab2f4ba792f1c8f8aa8ef7d780e709b191637ef886d96fd1472",
+      "description": "Bitcoin SV",
+      "isActive": true
+    },
+    {
+      "symbol": "USDD",
+      "pythId": "6d20210495d6518787b72e4ad06bc4df21e68d89a802cf6bced2fca6c29652a6",
+      "description": "USDD",
+      "isActive": true
+    },
+    {
+      "symbol": "BBSOL",
+      "pythId": "2997d5f9e96563cef9151cffc4580803930826fa38c4af5062de2363720769ea",
+      "description": "Bybit Staked SOL",
+      "isActive": true
+    },
+    {
+      "symbol": "WETH",
+      "pythId": "9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6",
+      "description": "Polygon PoS Bridged WETH (Polygon POS)",
+      "isActive": true
+    },
+    {
+      "symbol": "FRXETH",
+      "pythId": "29240ee3a9024d107888eb1d4c527216f06bd64cee030c6b5575b1a8d77cb659",
+      "description": "Frax Ether",
+      "isActive": true
+    },
+    {
+      "symbol": "DYDX",
+      "pythId": "6489800bb8974169adfe35937bf6736507097d13c190d760c557108c7e93a81b",
+      "description": "dYdX",
+      "isActive": true
+    },
+    {
+      "symbol": "USDT",
+      "pythId": "2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
+      "description": "Mantle Bridged USDT (Mantle)",
+      "isActive": true
+    },
+    {
+      "symbol": "BRETT",
+      "pythId": "9b5729efe3d68e537cdcb2ca70444dea5f06e1660b562632609757076d0b9448",
+      "description": "Brett",
+      "isActive": true
+    },
+    {
+      "symbol": "TUSD",
+      "pythId": "433faaa801ecdb6618e3897177a118b273a8e18cc3ff545aadfc207d58d028f7",
+      "description": "TrueUSD",
+      "isActive": true
+    },
+    {
+      "symbol": "SYRUP",
+      "pythId": "ed86e0c6321d790302e5d88751995ebc9079273e549005d68a83ba72e48ff1ce",
+      "description": "Maple Finance",
+      "isActive": true
+    },
+    {
+      "symbol": "HNT",
+      "pythId": "649fdd7ec08e8e2a20f425729854e90293dcbe2376abc47197a14da6ff339756",
+      "description": "Helium",
+      "isActive": true
+    },
+    {
+      "symbol": "APE",
+      "pythId": "15add95022ae13563a11992e727c91bdb6b55bc183d9d747436c80a483d8c864",
+      "description": "ApeCoin",
+      "isActive": true
+    },
+    {
+      "symbol": "NEO",
+      "pythId": "d82183dd487bef3208a227bb25d748930db58862c5121198e723ed0976eb92b7",
+      "description": "NEO",
+      "isActive": true
+    },
+    {
+      "symbol": "AR",
+      "pythId": "f610eae82767039ffc95eef8feaeddb7bbac0673cfe7773b2fde24fd1adb0aee",
+      "description": "Arweave",
+      "isActive": true
+    },
+    {
+      "symbol": "TEL",
+      "pythId": "7da003ada32eabbac855af3d22fcf0fe692cc589f0cfd5ced63cf0bdcc742efe",
+      "description": "Telcoin",
+      "isActive": true
+    },
+    {
+      "symbol": "DAI",
+      "pythId": "b0948a5e5313200c632b51bb5ca32f6de0d36e9950a942d19751e833f70dabfd",
+      "description": "Polygon PoS Bridged DAI (Polygon POS)",
+      "isActive": true
+    },
+    {
+      "symbol": "CORE",
+      "pythId": "9b4503710cc8c53f75c30e6e4fda1a7064680ef2e0ee97acd2e3a7c37b3c830c",
+      "description": "Core",
+      "isActive": true
+    },
+    {
+      "symbol": "USDC.E",
+      "pythId": "ffd11c5a1cfd42f80afb2df4d9f264c15f956d68153335374ec10722edd70472",
+      "description": "Bridged USDC (Polygon PoS Bridge)",
+      "isActive": true
+    },
+    {
+      "symbol": "RUNE",
+      "pythId": "5fcf71143bb70d41af4fa9aa1287e2efd3c5911cee59f909f915c9f61baacb1e",
+      "description": "THORChain",
+      "isActive": true
+    },
+    {
+      "symbol": "RSR",
+      "pythId": "fb7565b77267ba3f6ef770bed5d7f9b22b8542db676dbd9b934a2fcf945f4371",
+      "description": "Reserve Rights",
+      "isActive": true
+    },
+    {
+      "symbol": "NFT",
+      "pythId": "2cffc28ec4268805dbcb315bb122616059a1c200dda3d56f06ac150db8dfc370",
+      "description": "APENFT",
+      "isActive": true
+    }
+  ]
+}
