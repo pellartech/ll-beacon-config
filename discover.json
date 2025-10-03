@@ -3,39 +3,525 @@
   "updatedAt": "2025-09-24T18:00:00Z",
   "apps": [
     {
-      "id": "lightlink-bridge",
-      "name": "LightLink Bridge",
-      "description": "Bridge tokens to LightLink network",
-      "logoURI": "https://lightlink.io/favicon.ico",
-      "url": "https://bridge.lightlink.io",
-      "categories": ["defi", "bridge"],
+      "id": "amped-finance",
+      "name": "Amped Finance",
+      "description": "Decentralized perpetual exchange on LightLink, offering leveraged trading with low fees, zero price impact, and on-chain transparency.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/amped.svg",
+      "url": "https://amped.finance/",
+      "categories": ["defi"],
       "featured": true
     },
     {
-      "id": "uniswap",
-      "name": "Uniswap",
-      "description": "Decentralized trading protocol",
-      "logoURI": "https://app.uniswap.org/favicon.ico",
-      "url": "https://app.uniswap.org",
-      "categories": ["defi", "dex"],
+      "id": "api3",
+      "name": "API3",
+      "description": "Provides decentralized APIs and data feeds for blockchain apps, sourcing directly from the source without third-party oracles, and provides QRNG for randomness.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/api3.svg",
+      "url": "https://api3.org/",
+      "categories": ["oracle"],
       "featured": false
     },
     {
-      "id": "opensea",
-      "name": "OpenSea",
-      "description": "The world's first and largest digital marketplace",
-      "logoURI": "https://opensea.io/favicon.ico",
-      "url": "https://opensea.io",
-      "categories": ["nft", "marketplace"],
+      "id": "assisterr",
+      "name": "assisterr",
+      "description": "AI-powered agents for developer relations, automating onboarding, support, and data labeling with AI ChatBots for technical documentation.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/assisterr.svg",
+      "url": "https://www.assisterr.xyz/",
+      "categories": ["developer"],
       "featured": false
     },
     {
-      "id": "oku-trade",
+      "id": "blockscout",
+      "name": "Blockscout",
+      "description": "Blockchain explorer for Ethereum-based networks, inspecting and analyzing EVM blockchains with a user-friendly interface.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/blockscout.svg",
+      "url": "https://phoenix.lightlink.io/",
+      "categories": ["infrastructure"],
+      "featured": false
+    },
+    {
+      "id": "bullperks",
+      "name": "BullPerks",
+      "description": "Decentralized VC and multichain launchpad, offering IDOs, VC, Equity, INO, and native token BLP, with due diligence and crypto bridge services.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/bullperks.svg",
+      "url": "https://bullperks.com/",
+      "categories": ["launchpad"],
+      "featured": false
+    },
+    {
+      "id": "carbon",
+      "name": "Carbon",
+      "description": "Decentralized browser with AdBlock, dVPN, Crypto Wallet, Better Privacy and many other features.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/carbon.svg",
+      "url": "https://carbon.website/",
+      "categories": ["browser"],
+      "featured": true
+    },
+    {
+      "id": "celestia",
+      "name": "Celestia",
+      "description": "Modular data availability network that securely scales with the number of users, making it easy for anyone to launch their own blockchain.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/celestia.svg",
+      "url": "https://celestia.org/",
+      "categories": ["infrastructure"],
+      "featured": false
+    },
+    {
+      "id": "cryptodo",
+      "name": "CryptoDo",
+      "description": "Multichain, no-code web3 builder, enabling easy creation of blockchain apps with AI-enhanced modular functionalities.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/cryptodo.svg",
+      "url": "https://cryptodo.app/",
+      "categories": ["developer"],
+      "featured": false
+    },
+    {
+      "id": "elektrik",
+      "name": "Elektrik",
+      "description": "Decentralized exchange on LightLink, facilitating peer-to-peer trading with dynamic liquidity and reduced impermanent loss risk.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/elektrik.svg",
+      "url": "https://app.elektrik.network/",
+      "categories": ["defi"],
+      "featured": true
+    },
+    {
+      "id": "forward",
+      "name": "Forward",
+      "description": "No-code blockchain platform akin to WordPress for Web 3.0, enabling easy deployment of dApps and smart contracts.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/forward.svg",
+      "url": "https://forwardfactory.net/",
+      "categories": ["developer"],
+      "featured": false
+    },
+    {
+      "id": "grapes",
+      "name": "Grapes",
+      "description": "Collection of 3,333 NFTs, extending into gaming and animated series, rewarding holders.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/grapes.svg",
+      "url": "https://www.joingrapes.com/",
+      "categories": ["gaming"],
+      "featured": true
+    },
+    {
+      "id": "liteflow",
+      "name": "Liteflow",
+      "description": "Analyze, Launch, & Scale Web3 Projects. Liteflow unifies business insights, Web3 tools, & execution capabilities, enabling companies to grow, engage & monetize.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/liteflow.svg",
+      "url": "https://liteflow.com/",
+      "categories": ["developer"],
+      "featured": false
+    },
+    {
+      "id": "mintpad",
+      "name": "MintPad",
+      "description": "Web-based, no-code NFT launch platform for creating and selling NFT collections on various blockchains.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/mintpad.svg",
+      "url": "https://mintpad.co/",
+      "categories": ["nft"],
+      "featured": false
+    },
+    {
+      "id": "mittaria",
+      "name": "Mittaria",
+      "description": "Web3 metaverse for creators focusing on co-owning and co-creating in animation, music, movies, and fashion, fostering connections and creativity.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/mittaria.png",
+      "url": "https://mittaria.io/",
+      "categories": ["metaverse"],
+      "featured": true
+    },
+    {
+      "id": "moon",
+      "name": "Moon",
+      "description": "Next-gen smart wallet infrastructure, featuring a modular tech stack with support for ERC-4337 Account Abstraction, composable auth, and more.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/moon.svg",
+      "url": "https://usemoon.ai/",
+      "categories": ["wallet"],
+      "featured": false
+    },
+    {
+      "id": "pyth-network",
+      "name": "Pyth Network",
+      "description": "Provides RNG Entropy and real-time market data for smart contracts, offering 400+ data feeds for DeFi apps, supporting crypto, equities, FX, commodities.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/pyth.svg",
+      "url": "https://pyth.network/",
+      "categories": ["oracle"],
+      "featured": false
+    },
+    {
+      "id": "quick-intel",
+      "name": "Quick Intel",
+      "description": "Offers security tools for crypto traders with a Discord/Telegram Scanner Bot, dApp Scanner, and API for Web3 safety.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/quick_intel.svg",
+      "url": "https://quickintel.io/",
+      "categories": ["defi"],
+      "featured": false
+    },
+    {
+      "id": "rarible",
+      "name": "Rarible",
+      "description": "Decentralized NFT marketplace supporting multiple blockchains, emphasizing user experience for artists and collectors.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/rarible.svg",
+      "url": "https://rarible.com/",
+      "categories": ["nft"],
+      "featured": false
+    },
+    {
+      "id": "ready-games",
+      "name": "Ready Games",
+      "description": "The most complete web3 game development tools, supporting all games, on every platform, for every player.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/ready_games.svg",
+      "url": "https://ready.gg/",
+      "categories": ["gaming"],
+      "featured": false
+    },
+    {
+      "id": "space-id",
+      "name": "SPACE ID",
+      "description": "Web3 domain and identity platform offering services for digital identities, with tools for TLDs, domain marketplace, and APIs.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/spaceid.svg",
+      "url": "https://space.id/",
+      "categories": ["infrastructure"],
+      "featured": false
+    },
+    {
+      "id": "tallyup",
+      "name": "TallyUP!",
+      "description": "Play-to-Earn game redistributing value to players and charities, with 150,000 players and $500,000 in prizes won.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/tallyup.png",
+      "url": "https://www.tallyup.com/",
+      "categories": ["gaming"],
+      "featured": true
+    },
+    {
+      "id": "the-red-village",
+      "name": "The Red Village",
+      "description": "Dark-fantasy Metaverse brand with gladiatorial combat, integrating NFTs and blockchain for immersive gaming.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/village.svg",
+      "url": "https://www.theredvillage.com/",
+      "categories": ["gaming"],
+      "featured": true
+    },
+    {
+      "id": "thirdweb",
+      "name": "thirdweb",
+      "description": "Web3 development platform with SDKs, smart contracts, and tools for app building on EVM-equivalent blockchains.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/thirdweb.svg",
+      "url": "https://thirdweb.com/",
+      "categories": ["developer"],
+      "featured": false
+    },
+    {
+      "id": "translucia",
+      "name": "Translucia",
+      "description": "A Multiverse Convergence platform accelerating traditional businesses' entry into Web3 by linking third-party metaverses, creating an expansive exploration world.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/translucia.svg",
+      "url": "https://translucia.com/",
+      "categories": ["metaverse"],
+      "featured": true
+    },
+    {
+      "id": "nomis",
+      "name": "Nomis",
+      "description": "Multi-chain identity protocol for building, managing, and leveraging on-chain reputation.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/nomis.svg",
+      "url": "https://nomis.cc/",
+      "categories": ["infrastructure"],
+      "featured": false
+    },
+    {
+      "id": "ordify",
+      "name": "Ordify",
+      "description": "A protocol that simplifies managing, bridging, and launching tokens across multiple standards like BRC-20, STACKS, RSK, ERC-20, and SPL-20.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/ordify.svg",
+      "url": "https://ordify.world/",
+      "categories": ["defi"],
+      "featured": false
+    },
+    {
+      "id": "sendtokens",
+      "name": "SendTokens",
+      "description": "Decentralized wallet for sending cryptocurrencies via usernames, aiming to simplify crypto transactions for everyone.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/sendtokens.svg",
+      "url": "https://www.sendtokens.xyz/",
+      "categories": ["wallet"],
+      "featured": false
+    },
+    {
+      "id": "bitget-wallet",
+      "name": "Bitget Wallet",
+      "description": "Web3 multi-chain wallet offering a comprehensive platform with wallet, Swap, NFT Market, DApp Browser, and Launchpad functionality.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/bitget.svg",
+      "url": "https://web3.bitget.com/",
+      "categories": ["wallet"],
+      "featured": false
+    },
+    {
+      "id": "omnia",
+      "name": "OMNIA",
+      "description": "Fast, reliable, custom RPC nodes.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/omnia.svg",
+      "url": "https://omniatech.io/",
+      "categories": ["infrastructure"],
+      "featured": false
+    },
+    {
+      "id": "plena-finance",
+      "name": "Plena Finance",
+      "description": "Non-custodial crypto superapp that manages, trades, and bridges over 100,000 assets.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/plena.svg",
+      "url": "https://www.plena.finance/",
+      "categories": ["wallet", "defi"],
+      "featured": false
+    },
+    {
+      "id": "blocklive",
+      "name": "BlockLive",
+      "description": "Entertainment infrastructure platform. With Blocklive, event producers can control their ticket sales and create consumer journeys onchain with Stamps, Points, and Exclusive Drops.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/blocklive.svg",
+      "url": "https://blocklive.io/",
+      "categories": ["entertainment"],
+      "featured": true
+    },
+    {
+      "id": "edge-matrix",
+      "name": "Edge Matrix",
+      "description": "#AI #DePIN in AI+Web3, bridging the computing power network and AI (d)apps.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/edge_matrix.svg",
+      "url": "https://www.edgematrix.pro/",
+      "categories": ["depin"],
+      "featured": false
+    },
+    {
+      "id": "gate-web3-wallet",
+      "name": "Gate Web3 Wallet",
+      "description": "Convenient, safe and advanced decentralized wallet supporting multi-chain functions for easy management of all your addresses and assets.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/gate.svg",
+      "url": "https://www.gate.io/web3",
+      "categories": ["wallet"],
+      "featured": false
+    },
+    {
+      "id": "icecreamswap",
+      "name": "IceCreamSwap",
+      "description": "AI-powered DEX aggregator boasting over $600K in liquidity.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/icecreamswap.svg",
+      "url": "https://icecreamswap.com/",
+      "categories": ["defi"],
+      "featured": false
+    },
+    {
+      "id": "stage",
+      "name": "Stage",
+      "description": "Music-only platform for talent competitions with a unique play-to-earn model.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/stage.svg",
+      "url": "https://www.stage.community/",
+      "categories": ["entertainment"],
+      "featured": false
+    },
+    {
+      "id": "tickify",
+      "name": "Tickify",
+      "description": "Tickify is a ticketing company using the latest technology specialising in providing innovative solutions for event management and ticketing.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/tickify.svg",
+      "url": "https://tickify.io/",
+      "categories": ["entertainment"],
+      "featured": true
+    },
+    {
+      "id": "fjord-foundry",
+      "name": "Fjord Foundry",
+      "description": "Offers fair and transparent Liquidity Bootstrapping Pools (LBPs) on LightLink.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/fjord.png",
+      "url": "https://www.fjordfoundry.com/",
+      "categories": ["launchpad"],
+      "featured": false
+    },
+    {
+      "id": "intu",
+      "name": "INTU",
+      "description": "Web3 Account and Signing Solution simplifying user onboarding and management for builders without subscriptions or cloud-based services.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/intu.svg",
+      "url": "https://intu.xyz/",
+      "categories": ["developer"],
+      "featured": false
+    },
+    {
+      "id": "apebond",
+      "name": "ApeBond",
+      "description": "The first on-chain bonding protocol on LightLink.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/apebond.svg",
+      "url": "https://ape.bond/",
+      "categories": ["defi"],
+      "featured": false
+    },
+    {
+      "id": "element",
+      "name": "Element",
+      "description": "One of the biggest NFT marketplaces & aggregators with 3M+ all-time trading wallets.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/element.svg",
+      "url": "https://element.market/",
+      "categories": ["nft"],
+      "featured": false
+    },
+    {
+      "id": "cavus",
+      "name": "Cavus",
+      "description": "Lending and borrowing protocol powered by Pyth Network's pull oracle.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/cavus.svg",
+      "url": "https://www.cavus.finance/",
+      "categories": ["defi"],
+      "featured": false
+    },
+    {
+      "id": "demether",
+      "name": "Demether",
+      "description": "Demether aggregates and directs liquidity across chain, aligning blockchains and users with strong economic incentives.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/demether.svg",
+      "url": "https://www.demether.io/",
+      "categories": ["defi"],
+      "featured": false
+    },
+    {
+      "id": "sablier",
+      "name": "Sablier",
+      "description": "Free-to-use infrastructure for money streaming and token distribution. DAOs and businesses use Sablier for vesting, payroll, airdrops, and more.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/sablier.svg",
+      "url": "https://sablier.com/",
+      "categories": ["infrastructure"],
+      "featured": false
+    },
+    {
+      "id": "dynamic",
+      "name": "Dynamic",
+      "description": "Offers a suite of tools that allow developers to craft magical and inclusive onchain signup experiences.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/dynamic.svg",
+      "url": "https://www.dynamic.xyz/",
+      "categories": ["developer"],
+      "featured": false
+    },
+    {
+      "id": "layerzero",
+      "name": "LayerZero",
+      "description": "Connects blockchains and enables the secure transfer and tracking of cross-chain messages. dApps from other chains can scale to LightLink and provide their users with gasless transactions.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/layerzero.svg",
+      "url": "https://layerzero.network/",
+      "categories": ["infrastructure"],
+      "featured": false
+    },
+    {
+      "id": "orochi",
+      "name": "Orochi",
+      "description": "Zero-knowledge modular data availability layer. Orochi's Elliptic Curve VRF Orand and chain-agnostic oracle Orocle are live on our Testnet.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/orochi.svg",
+      "url": "https://orochi.network/",
+      "categories": ["oracle"],
+      "featured": false
+    },
+    {
+      "id": "smolrefuel",
+      "name": "smolrefuel",
+      "description": "Solution for gas refueling that allows you to refill your wallet anonymously and gas-free.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/smolrefuel.svg",
+      "url": "https://phoenix.lightlink.io/apps/smol-refuel?action=connect",
+      "categories": ["bridge"],
+      "featured": false
+    },
+    {
+      "id": "the-motorverse",
+      "name": "The Motorverse",
+      "description": "Builds the largest open ecosystem for racing games, digital vehicles and motorsport culture. Enthusiasts can revel in collecting vehicles, compete in diverse games, or use their experiences to create unique stories.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/motorverse.svg",
+      "url": "https://motorverse.com/",
+      "categories": ["gaming"],
+      "featured": false
+    },
+    {
+      "id": "envio",
+      "name": "Envio",
+      "description": "Modern, multi-chain EVM blockchain indexing framework speed-optimized for querying real-time and historical data.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/envio.svg",
+      "url": "https://envio.dev/",
+      "categories": ["developer"],
+      "featured": false
+    },
+    {
+      "id": "defi-builder",
+      "name": "DeFi Builder",
+      "description": "DeFi Builder is a Web3 no-code platform, bringing seamless Dapp customization and Smart Contract deployment to any blockchain entrepreneur.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/defibuilder.svg",
+      "url": "https://app.defibuilder.com/",
+      "categories": ["developer"],
+      "featured": false
+    },
+    {
+      "id": "coin98",
+      "name": "Coin98",
+      "description": "Open, decentralized, and secure crypto messenger & AI wallet",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/coin98.svg",
+      "url": "https://coin98.com/",
+      "categories": ["wallet"],
+      "featured": false
+    },
+    {
+      "id": "gravitaslabs",
+      "name": "Gravitaslabs",
+      "description": "Partner of Animoca Brands specializing in developing immersive Web3 engagement solutions. LightLink is collaborating on Lamborghini's Fast ForWorld project with Gravitaslabs",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/gravitaslabs.svg",
+      "url": "https://gravitaslabs.io/",
+      "categories": ["metaverse"],
+      "featured": false
+    },
+    {
+      "id": "leap-wallet",
+      "name": "Leap Wallet",
+      "description": "The interchain & modular wallet trusted by 800k+ users",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/leapwallet.svg",
+      "url": "https://leapwallet.io/",
+      "categories": ["wallet"],
+      "featured": false
+    },
+    {
+      "id": "stargate",
+      "name": "Stargate",
+      "description": "Cross-chain bridge powered by LayerZero's Omnichain framework. Top 5 bridges by monthly volume, facilitating over $1 billion in value bridged each month",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/stargate.svg",
+      "url": "https://stargate.finance/bridge?dstChain=lightlink",
+      "categories": ["bridge"],
+      "featured": false
+    },
+    {
+      "id": "stork",
+      "name": "Stork",
+      "description": "Customizable, reliable, and high-performance data feeds. $400B in total transaction value",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/stork.svg",
+      "url": "https://www.stork.network/",
+      "categories": ["oracle"],
+      "featured": false
+    },
+    {
+      "id": "exiled-racers",
+      "name": "Exiled Racers",
+      "description": "EXR's Ghost Riders is a fully controllable, browser-based racing gameplay with weekly leaderboard prize pools.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/exiled_racers.svg",
+      "url": "https://exiledracers.com/",
+      "categories": ["gaming"],
+      "featured": false
+    },
+    {
+      "id": "coincreate",
+      "name": "CoinCreate",
+      "description": "Staking contracts/DApps, vesting, NFTs, advanced tokens, and much more through CoinCreate's no-code, easy-to-use interface.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/coincreate.svg",
+      "url": "https://coincreate.io/Lightlink/createtoken",
+      "categories": ["developer"],
+      "featured": false
+    },
+    {
+      "id": "oku",
       "name": "Oku",
-      "description": "Advanced trading interface for Uniswap",
-      "logoURI": "https://oku.trade/favicon.ico",
-      "url": "https://oku.trade/?inputChain=ethereum&inToken=0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48&outToken=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-      "categories": ["defi", "trading"],
+      "description": "Bridge & swap any token across 25+ chains including Arbitrum, Base, Sei & more with ZERO FEES.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/oku.svg",
+      "url": "https://oku.trade/",
+      "categories": ["defi"],
       "featured": false
     }
   ],
