@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-10-08T00:00:00Z",
+  "providers": {
+    "router": {
+      "name": "Router",
+      "enabled": false,
+      "supportsSameChain": true,
+      "supportsCrossChain": false,
+      "supportedNetworks": [],
+      "iconUri": ""
+    },
+    "sodax": {
+      "name": "SODAX",
+      "enabled": true,
+      "supportsSameChain": true,
+      "supportsCrossChain": true,
+      "supportedNetworks": [1890,8453],
+      "iconUri": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/swap/sodax.svg"
+    },
+    "oku": {
+      "name": "Oku Trade",
+      "enabled": true,
+      "supportsSameChain": true,
+      "supportsCrossChain": true,
+      "supportedNetworks": [1,8453,1890],
+      "iconUri": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/swap/oku.svg"
+    }
+  },
+  "defaultProviderPriority": [ "sodax","oku" ]
+}

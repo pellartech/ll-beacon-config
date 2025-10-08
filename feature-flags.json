@@ -15,7 +15,7 @@
       "description": "Enable origin validation for dApp connections"
     },
     "ENABLE_SWAP": {
-      "enabled": false,
+      "enabled": true,
       "description": "Enable token swap functionality"
     },
     "ENABLE_BUY": {
@@ -26,13 +26,13 @@
       "enabled": false,
       "description": "Enable ZKAuth wallet creation and social login options"
     },
+    "ENABLE_PRIVY_WALLET": {
+      "enabled": true,
+      "description": "Enable Privy wallet creation and social login options"
+    },
     "FORCE_INTRO": {
       "enabled": false,
       "description": "Force intro flow even if already shown"
-    },
-    "ENABLE_PRIVY_WALLET": {
-      "enabled": true,
-      "description": "Enable Privy wallet integration"
     }
   }
 }
