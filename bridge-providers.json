@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-10-16T00:00:00Z",
+  "providers": {
+    "sodax-bridge": {
+      "name": "SODAX Bridge",
+      "enabled": true,
+      "supportedNetworks": [1890, 8453, 1, 56, 137, 42161, 10, 43114],
+      "iconUri": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/swap/sodax.svg"
+    },
+    "stargate": {
+      "name": "Stargate Finance",
+      "enabled": true,
+      "supportedNetworks": [1, 8453, 1890],
+      "iconUri": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/swap/stargate.svg"
+    }
+  },
+  "defaultProviderPriority": ["sodax-bridge", "stargate"]
+}
