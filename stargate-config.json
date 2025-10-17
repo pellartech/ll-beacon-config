@@ -1,13 +1,15 @@
 {
-  "version": "1.0.0",
-  "lastUpdated": "2025-10-15T00:00:00Z",
+  "version": "1.1.0",
+  "lastUpdated": "2025-10-16T00:00:00Z",
   "settings": {
     "apiBaseUrl": "https://stargate.finance/api/v1",
     "defaultSlippagePercent": 0.5,
     "quoteTimeoutMs": 10000,
     "swapTimeoutMs": 120000,
     "cacheExpiryMs": 300000,
-    "estimatedBridgeTimeSeconds": 180
+    "estimatedBridgeTimeSeconds": 180,
+    "routeSelectionStrategy": "cheapest",
+    "showAlternativeRoutes": true
   },
   "chainMappings": {
     "1": "ethereum",
