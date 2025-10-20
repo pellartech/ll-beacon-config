@@ -1,7 +1,16 @@
 {
-  "version": "1.0",
-  "updatedAt": "2025-09-24T18:00:00Z",
+  "version": "1.01",
+  "updatedAt": "2025-10-20T05:00:00Z",
   "apps": [
+    {
+      "id": "oku",
+      "name": "Oku",
+      "description": "Bridge & swap any token across 25+ chains including Arbitrum, Base, Sei & more with ZERO FEES.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/oku.svg",
+      "url": "https://oku.trade/",
+      "categories": ["defi"],
+      "featured": false
+    },
     {
       "id": "amped-finance",
       "name": "Amped Finance",
@@ -9,6 +18,33 @@
       "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/amped.svg",
       "url": "https://amped.finance/",
       "categories": ["defi"],
+      "featured": true
+    },
+    {
+      "id": "rarible",
+      "name": "Rarible",
+      "description": "Decentralized NFT marketplace supporting multiple blockchains, emphasizing user experience for artists and collectors.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/rarible.svg",
+      "url": "https://rarible.com/",
+      "categories": ["nft"],
+      "featured": false
+    },
+    {
+      "id": "stargate",
+      "name": "Stargate",
+      "description": "Cross-chain bridge powered by LayerZero's Omnichain framework. Top 5 bridges by monthly volume, facilitating over $1 billion in value bridged each month",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/stargate.svg",
+      "url": "https://stargate.finance/bridge?dstChain=lightlink",
+      "categories": ["bridge"],
+      "featured": false
+    },
+    {
+      "id": "translucia",
+      "name": "Translucia",
+      "description": "A Multiverse Convergence platform accelerating traditional businesses' entry into Web3 by linking third-party metaverses, creating an expansive exploration world.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/translucia.svg",
+      "url": "https://translucia.com/",
+      "categories": ["metaverse"],
       "featured": true
     },
     {
@@ -156,15 +192,6 @@
       "featured": false
     },
     {
-      "id": "rarible",
-      "name": "Rarible",
-      "description": "Decentralized NFT marketplace supporting multiple blockchains, emphasizing user experience for artists and collectors.",
-      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/rarible.svg",
-      "url": "https://rarible.com/",
-      "categories": ["nft"],
-      "featured": false
-    },
-    {
       "id": "ready-games",
       "name": "Ready Games",
       "description": "The most complete web3 game development tools, supporting all games, on every platform, for every player.",
@@ -208,15 +235,6 @@
       "url": "https://thirdweb.com/",
       "categories": ["developer"],
       "featured": false
-    },
-    {
-      "id": "translucia",
-      "name": "Translucia",
-      "description": "A Multiverse Convergence platform accelerating traditional businesses' entry into Web3 by linking third-party metaverses, creating an expansive exploration world.",
-      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/translucia.svg",
-      "url": "https://translucia.com/",
-      "categories": ["metaverse"],
-      "featured": true
     },
     {
       "id": "nomis",
@@ -478,16 +496,7 @@
       "url": "https://leapwallet.io/",
       "categories": ["wallet"],
       "featured": false
-    },
-    {
-      "id": "stargate",
-      "name": "Stargate",
-      "description": "Cross-chain bridge powered by LayerZero's Omnichain framework. Top 5 bridges by monthly volume, facilitating over $1 billion in value bridged each month",
-      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/stargate.svg",
-      "url": "https://stargate.finance/bridge?dstChain=lightlink",
-      "categories": ["bridge"],
-      "featured": false
-    },
+    },   
     {
       "id": "stork",
       "name": "Stork",
@@ -513,15 +522,6 @@
       "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/coincreate.svg",
       "url": "https://coincreate.io/Lightlink/createtoken",
       "categories": ["developer"],
-      "featured": false
-    },
-    {
-      "id": "oku",
-      "name": "Oku",
-      "description": "Bridge & swap any token across 25+ chains including Arbitrum, Base, Sei & more with ZERO FEES.",
-      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/oku.svg",
-      "url": "https://oku.trade/",
-      "categories": ["defi"],
       "featured": false
     }
   ],
