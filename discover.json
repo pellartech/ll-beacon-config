@@ -39,6 +39,15 @@
       "featured": false
     },
     {
+      "id": "space-id",
+      "name": "SPACE ID",
+      "description": "Web3 domain and identity platform offering services for digital identities, with tools for TLDs, domain marketplace, and APIs.",
+      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/spaceid.svg",
+      "url": "https://space.id/",
+      "categories": ["infrastructure"],
+      "featured": false
+    },
+    {
       "id": "translucia",
       "name": "Translucia",
       "description": "A Multiverse Convergence platform accelerating traditional businesses' entry into Web3 by linking third-party metaverses, creating an expansive exploration world.",
@@ -198,15 +207,6 @@
       "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/ready_games.svg",
       "url": "https://ready.gg/",
       "categories": ["gaming"],
-      "featured": false
-    },
-    {
-      "id": "space-id",
-      "name": "SPACE ID",
-      "description": "Web3 domain and identity platform offering services for digital identities, with tools for TLDs, domain marketplace, and APIs.",
-      "logoURI": "https://raw.githubusercontent.com/pellartech/ll-beacon-config/refs/heads/main/assets/ecosystem/spaceid.svg",
-      "url": "https://space.id/",
-      "categories": ["infrastructure"],
       "featured": false
     },
     {
