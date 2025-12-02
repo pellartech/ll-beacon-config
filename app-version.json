@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-02T00:00:00Z",
+  "platforms": {
+    "ios": {
+      "production": {
+        "minVersion": "1.29.0",
+        "severity": "recommended",
+        "message": {
+          "en": "A new version of Stella Wallet is available."
+        }
+      },
+      "testflight": {
+        "minVersion": "1.29.0",
+        "severity": "recommended",
+        "message": {
+          "en": "A new test version is available."
+        }
+      }
+    },
+    "android": {
+      "production": {
+        "minVersion": "1.29.0",
+        "severity": "recommended",
+        "message": {
+          "en": "A new version of Stella Wallet is available."
+        }
+      },
+      "beta": {
+        "minVersion": "1.29.0",
+        "severity": "recommended",
+        "message": {
+          "en": "A new test version is available."
+        }
+      }
+    }
+  },
+  "storeUrls": {
+    "ios": {
+      "production": "itms-apps://apps.apple.com/app/6738846689",
+      "testflight": "itms-beta://beta.itunes.apple.com/v1/app/6738846689"
+    },
+    "android": {
+      "production": "market://details?id=io.lightlink.wallet.app",
+      "beta": "market://details?id=io.lightlink.wallet.app"
+    }
+  }
+}

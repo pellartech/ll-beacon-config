@@ -1,19 +1,7 @@
 {
-  "version": "1.0.0",
-  "lastUpdated": "2025-08-21T15:44:00Z",
+  "version": "1.2.0",
+  "lastUpdated": "2025-12-02T15:44:00Z",
   "flags": {
-    "ENABLE_DAPP_SECURITY_WARNINGS": {
-      "enabled": false,
-      "description": "Enable security warnings for dApp interactions"
-    },
-    "ENABLE_PHISHING_DETECTION": {
-      "enabled": false,
-      "description": "Enable phishing detection for dApp URLs"
-    },
-    "ENABLE_ORIGIN_VALIDATION": {
-      "enabled": false,
-      "description": "Enable origin validation for dApp connections"
-    },
     "ENABLE_SWAP": {
       "enabled": true,
       "description": "Enable token swap functionality"
@@ -30,9 +18,37 @@
       "enabled": true,
       "description": "Enable Privy wallet creation and social login options"
     },
+    "ENABLE_SLIPPAGE_CUSTOMIZATION": {
+      "enabled": true,
+      "description": "Allow users to customize slippage tolerance in swap"
+    },
+    "ENABLE_TXN_DEADLINE_DISPLAY": {
+      "enabled": false,
+      "description": "Show transaction deadline setting in swap UI"
+    },
+    "ENABLE_SWAP_ROUTE_DISPLAY": {
+      "enabled": true,
+      "description": "Show swap routing path visualization"
+    },
+    "ENABLE_MINIMUM_RECEIVED_DISPLAY": {
+      "enabled": true,
+      "description": "Show minimum received amount in swap review"
+    },
+    "ENABLE_PRICE_IMPACT_DISPLAY": {
+      "enabled": false,
+      "description": "Show price impact warning in swap"
+    },
+    "ENABLE_POOL_LIQUIDITY_DISPLAY": {
+      "enabled": false,
+      "description": "Show pool liquidity warnings in swap"
+    },
     "FORCE_INTRO": {
       "enabled": false,
       "description": "Force intro flow even if already shown"
+    },
+    "ENABLE_FORCE_UPDATE": {
+      "enabled": true,
+      "description": "Enable force app update checking"
     }
   }
 }
