@@ -20,14 +20,14 @@
     },
     "android": {
       "production": {
-        "minVersion": "1.29.0",
+        "minVersion": "1.31.1",
         "severity": "recommended",
         "message": {
           "en": "A new version of Stella Wallet is available."
         }
       },
       "beta": {
-        "minVersion": "1.29.0",
+        "minVersion": "1.31.1",
         "severity": "recommended",
         "message": {
           "en": "A new test version is available."
