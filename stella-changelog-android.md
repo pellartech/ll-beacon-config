@@ -1,5 +1,17 @@
 # What's New
 
+## v1.35.0
+
+### Features
+
+- Added in-app changelog to see what's new
+- Added feedback form to share your thoughts
+
+### Bug Fixes
+
+- Fixed navigation on onboarding screens
+- Newly added wallets are now automatically selected
+
 ## v1.34.2
 
 ### Bug Fixes
