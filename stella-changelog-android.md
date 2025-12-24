@@ -4,7 +4,7 @@
 
 ### Bug Fixes
 
-- Improved avatar emoji display on Android
+- Improved avatar emoji display
 
 ## v1.34.1
 
@@ -48,7 +48,7 @@
 - Token management in settings
 - Checks for sufficient funds before review
 - Skeleton loaders for smoother loading
-- Updated Android app icon
+- Updated app icon
 
 ### Improvements
 
@@ -58,4 +58,4 @@
 
 - Fixed emoji picker issues
 - Fixed avatar image display
-- Fixed Android navigation bar on older devices
+- Fixed navigation bar on older devices
