@@ -11,6 +11,7 @@
 
 - Fixed navigation on onboarding screens
 - Newly added wallets are now automatically selected
+- Fixed modal display issues
 
 ## v1.34.2
 
