@@ -1,5 +1,11 @@
 # What's New
 
+## v1.36.1
+
+### Features
+
+- Improved referral onboarding experience
+
 ## v1.36.0
 
 ### Features
