@@ -1,5 +1,13 @@
 # What's New
 
+## v1.36.0
+
+### Features
+
+- Referral system with invite links and rewards
+- Link your Google or Apple account to your wallet
+- NFT collection view with improved image loading
+
 ## v1.35.0
 
 ### Features
