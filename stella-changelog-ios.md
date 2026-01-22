@@ -1,5 +1,16 @@
 # What's New
 
+## v1.36.2
+
+### Features
+
+- Quick access to your own wallets when sending
+- Improved collectibles loading experience
+
+### Bug Fixes
+
+- Fixed scrolling behavior on home screen
+
 ## v1.36.1
 
 ### Features
