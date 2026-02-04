@@ -1,5 +1,11 @@
 # What's New
 
+## v1.36.3
+
+### Improvements
+
+- Improved referral link handling
+
 ## v1.36.2
 
 ### Features
